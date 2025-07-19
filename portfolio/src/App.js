@@ -1,11 +1,13 @@
 import React from "react";
 import CustomNavbar from "./components/Navbar";
+import Spotlight from "./components/Spotlight";
 import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
       <CustomNavbar />
+      <Spotlight />
 
       {/* Placeholder sections */}
       <section id="about" className="p-5">
