@@ -2,10 +2,12 @@ import React from "react";
 import CustomNavbar from "./components/Navbar";
 import Spotlight from "./components/Spotlight";
 import Footer from "./components/Footer";
+import BackgroundOverlay from "./components/BackgroundOverlay";
 
 function App() {
   return (
     <div>
+      <BackgroundOverlay />
       <CustomNavbar />
       <Spotlight />
 
