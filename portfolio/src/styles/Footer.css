@@ -4,6 +4,11 @@ footer {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-footer a:hover {
-  text-decoration: underline;
+.social-icons a {
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #ffd700; /* change this to your brand accent */
 }

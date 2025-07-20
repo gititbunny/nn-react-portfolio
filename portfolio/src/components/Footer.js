@@ -1,37 +1,50 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import "../styles/Footer.css"; // optional for custom styles
+import React, { useEffect } from "react";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import "../styles/Footer.css";
 
 function Footer() {
+  useEffect(() => {
+    const tooltipTriggerList = document.querySelectorAll(
+      '[data-bs-toggle="tooltip"]'
+    );
+    [...tooltipTriggerList].forEach((tooltipEl) => {
+      new window.bootstrap.Tooltip(tooltipEl);
+    });
+  }, []);
+
   return (
     <footer className="footer text-white py-4 mt-5">
-      {" "}
-      <Container>
-        <Row className="text-center text-md-start">
-          <Col md={6}>
-            <p className="mb-1">© 2025 Nina Nkhwashu. All Rights Reserved.</p>
-          </Col>
-          <Col md={6}>
-            <div className="d-flex justify-content-md-end justify-content-center gap-3">
-              <a href="#about" className="text-white text-decoration-none">
-                About
-              </a>
-              <a href="#projects" className="text-white text-decoration-none">
-                Projects
-              </a>
-              <a href="#career" className="text-white text-decoration-none">
-                Career Journey
-              </a>
-              <a href="#musings" className="text-white text-decoration-none">
-                Tech Musings
-              </a>
-              <a href="#contact" className="text-white text-decoration-none">
-                Contact
-              </a>
-            </div>
-          </Col>
-        </Row>
-      </Container>
+      <div className="social-icons d-flex justify-content-md-end justify-content-center gap-4">
+        <a
+          href="https://github.com/ninankhwashu"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white"
+          data-bs-toggle="tooltip"
+          title="View my GitHub"
+        >
+          <FaGithub size={24} />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/ninankhwashu/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white"
+          data-bs-toggle="tooltip"
+          title="Connect on LinkedIn"
+        >
+          <FaLinkedin size={24} />
+        </a>
+        <a
+          href="mailto:ninankhwashu@gmail.com"
+          className="text-white"
+          data-bs-toggle="tooltip"
+          title="Send me an email"
+        >
+          <FaEnvelope size={24} />
+        </a>
+      </div>
     </footer>
   );
 }
