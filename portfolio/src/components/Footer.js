@@ -4,7 +4,8 @@ import "../styles/Footer.css"; // optional for custom styles
 
 function Footer() {
   return (
-    <footer className="bg-dark text-white py-4 mt-5">
+    <footer className="footer text-white py-4 mt-5">
+      {" "}
       <Container>
         <Row className="text-center text-md-start">
           <Col md={6}>

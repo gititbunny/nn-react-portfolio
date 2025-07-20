@@ -8,7 +8,7 @@ function CustomNavbar() {
   };
 
   return (
-    <Navbar bg="light" expand="lg" sticky="top">
+    <Navbar expand="lg" sticky="top" className="navbar">
       <Container>
         <Navbar.Brand onClick={refreshPage} style={{ cursor: "pointer" }}>
           <img

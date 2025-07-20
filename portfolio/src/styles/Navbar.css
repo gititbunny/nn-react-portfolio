@@ -1,4 +1,38 @@
+.navbar {
+  background-color: rgba(20, 11, 5, 0.6) !important;
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 .navbar-brand {
   font-weight: bold;
   font-size: 20px;
+}
+
+/* Target the brand text */
+.navbar .navbar-brand {
+  color: white !important;
+}
+
+/* Target the nav links */
+.navbar .nav-link {
+  color: white !important;
+}
+
+/* Optional: hover effect */
+.navbar .nav-link:hover {
+  color: #ffd700 !important; /* gold/yellow on hover */
+}
+
+.navbar-brand:hover {
+  color: #ffd700 !important; /* gold/yellow on hover */
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar .nav-link.active {
+  color: #00ffff !important; /* aqua */
+  font-weight: bold;
 }
