@@ -2,6 +2,7 @@
   background-color: rgba(20, 11, 5, 0.6) !important;
   backdrop-filter: blur(6px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px 0 !important;
 }
 
 .navbar-brand {
@@ -29,10 +30,10 @@
 }
 
 .navbar-toggler {
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 215, 0, 0.1);
 }
 
 .navbar .nav-link.active {
-  color: #00ffff !important; /* aqua */
+  color: #00ffff !important;
   font-weight: bold;
 }

@@ -2,13 +2,26 @@ footer {
   background-color: rgba(20, 11, 5, 0.6);
   backdrop-filter: blur(6px);
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: auto;
+  position: relative;
+  z-index: 1;
+  padding: 10px 0;
 }
 
 .social-icons a {
-  transition: transform 0.2s ease, color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  transition: transform 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
 }
 
 .social-icons a:hover {
   transform: scale(1.2);
-  color: #ffd700; /* change this to your brand accent */
+  color: #ffd700; /* gold accent — change to your brand color */
+  box-shadow: 0 0 12px rgba(255, 215, 0, 0.6); /* soft glow */
+  background-color: rgba(255, 215, 0, 0.1); /* subtle halo */
 }
