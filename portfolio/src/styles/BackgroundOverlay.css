@@ -45,17 +45,24 @@
   left: 5%;
 }
 .ring2 {
-  width: 120px;
-  height: 120px;
-  top: 60%;
-  right: 10%;
+  width: 230px;
+  height: 230px;
+  top: 50%;
+  right: 5%;
 }
 .ring3 {
   width: 300px;
   height: 300px;
   bottom: 5%;
-  left: 35%;
+  left: 30%;
   animation-duration: 30s;
+}
+.ring4 {
+  width: 150px;
+  height: 150px;
+  top: 20%;
+  right: 30%;
+  animation-duration: 25s;
 }
 
 @keyframes float {

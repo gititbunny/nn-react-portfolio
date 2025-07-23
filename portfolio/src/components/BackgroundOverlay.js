@@ -4,7 +4,6 @@ import "../styles/BackgroundOverlay.css";
 function BackgroundOverlay() {
   return (
     <div className="background-overlay">
-      {/* Layer 1: Fullscreen video */}
       <video
         className="background-video"
         autoPlay
@@ -17,13 +16,12 @@ function BackgroundOverlay() {
         Your browser does not support the video tag.
       </video>
 
-      {/* Layer 2: Gradient overlay */}
       <div className="gradient-overlay"></div>
 
-      {/* Layer 3: Floating rings */}
       <div className="floating-ring ring1"></div>
       <div className="floating-ring ring2"></div>
       <div className="floating-ring ring3"></div>
+      <div className="floating-ring ring4"></div>
     </div>
   );
 }
