@@ -3,6 +3,7 @@ import CustomNavbar from "./components/Navbar";
 import Spotlight from "./components/Spotlight";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import BackgroundOverlay from "./components/BackgroundOverlay";
 
@@ -14,6 +15,7 @@ function App() {
       <Spotlight />
       <About />
       <Skills />
+      <Projects />
       {/* Placeholder sections */}
       <section id="about" className="p-5">
         About Section
