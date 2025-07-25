@@ -1,4 +1,3 @@
-import { Routes, Route } from "react-router-dom";
 import React from "react";
 import CustomNavbar from "./components/Navbar";
 import Spotlight from "./components/Spotlight";
@@ -7,18 +6,23 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import BackgroundOverlay from "./components/BackgroundOverlay";
-import DigitalCreator from "./pages/DigitalCreator";
-import GraphicDesign from "./pages/GraphicDesign";
 
-function Home() {
+function App() {
   return (
-    <>
+    <div>
       <BackgroundOverlay />
       <CustomNavbar />
       <Spotlight />
       <About />
       <Skills />
       <Projects />
+      {/* Placeholder sections */}
+      <section id="about" className="p-5">
+        About Section
+      </section>
+      <section id="projects" className="p-5 bg-light">
+        Projects Section
+      </section>
       <section id="career" className="p-5">
         Career Journey Section
       </section>
@@ -28,18 +32,9 @@ function Home() {
       <section id="contact" className="p-5">
         Contact Section
       </section>
-      <Footer />
-    </>
-  );
-}
 
-function App() {
-  return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/digital-creator" element={<DigitalCreator />} />
-      <Route path="/graphic-design" element={<GraphicDesign />} />
-    </Routes>
+      <Footer />
+    </div>
   );
 }
 
