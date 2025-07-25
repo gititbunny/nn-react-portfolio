@@ -12,7 +12,7 @@ function CustomNavbar() {
       <Container>
         <Navbar.Brand onClick={refreshPage} style={{ cursor: "pointer" }}>
           <img
-            src="/logo192.png" // replace with your logo path
+            src="/logo192.png"
             width="30"
             height="30"
             className="d-inline-block align-top"
@@ -27,7 +27,7 @@ function CustomNavbar() {
             <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#career">Career Journey</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
-            <Nav.Link href="#musings">Tech Musings</Nav.Link>
+            <Nav.Link href="#blog">Blog</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

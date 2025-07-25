@@ -26,8 +26,8 @@ function App() {
       <section id="career" className="p-5">
         Career Journey Section
       </section>
-      <section id="musings" className="p-5 bg-light">
-        Tech Musings Section
+      <section id="blog" className="p-5 bg-light">
+        Blog Section
       </section>
       <section id="contact" className="p-5">
         Contact Section
