@@ -39,6 +39,7 @@ function Skills() {
     "Clear Information Delivery",
     "Critical Thinking",
     "Growth-Focused Mindset",
+    "E-commerce Management",
   ];
 
   return (
