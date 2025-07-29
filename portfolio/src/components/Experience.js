@@ -29,8 +29,9 @@ const Experience = () => {
       particle.dataset.year = year;
 
       const size = 90;
-      const x = Math.random() * (containerRect.width - size * 2) + size;
-      const y = Math.random() * (containerRect.height - size * 2) + size;
+      const padding = 100; // space to prevent overlap with edges and button
+      const x = Math.random() * (containerRect.width - size - padding);
+      const y = Math.random() * (containerRect.height - size - padding);
 
       particle.style.left = `${x}px`;
       particle.style.top = `${y}px`;
@@ -40,25 +41,22 @@ const Experience = () => {
         element: particle,
         x,
         y,
-        vx: Math.random() * 2 - 1,
-        vy: Math.random() * 2 - 1,
+        vx: (Math.random() - 0.5) * 1.5,
+        vy: (Math.random() - 0.5) * 1.5,
       });
     });
 
     function animateParticles() {
       const width = container.offsetWidth;
       const height = container.offsetHeight;
-      const size = 80;
+      const size = 90;
 
       particles.forEach((p) => {
-        let nextX = p.x + p.vx;
-        let nextY = p.y + p.vy;
-
-        if (nextX + size > width || nextX < 0) p.vx *= -1;
-        if (nextY + size > height || nextY < 0) p.vy *= -1;
-
         p.x += p.vx;
         p.y += p.vy;
+
+        if (p.x <= 0 || p.x + size >= width) p.vx *= -1;
+        if (p.y <= 0 || p.y + size >= height - 60) p.vy *= -1; // 60px buffer for CV button
 
         p.element.style.left = `${p.x}px`;
         p.element.style.top = `${p.y}px`;
@@ -71,7 +69,7 @@ const Experience = () => {
   }, []);
 
   return (
-    <section id="experience">
+    <section className="experience-section">
       <h2 className="experience-title">
         Professional Experience & Academic Milestones
       </h2>
@@ -80,8 +78,8 @@ const Experience = () => {
         a year and see for yourself
       </p>
       <div className="experience-box">
-        <div className="particle-container" id="particles"></div>
         <button className="cv-download">Download CV</button>
+        <div className="particle-container" id="particles"></div>
       </div>
     </section>
   );

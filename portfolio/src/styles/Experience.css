@@ -1,6 +1,7 @@
-#experience {
+.experience-section {
   text-align: center;
   padding: 50px 20px;
+  background: rgba(20, 11, 5, 0.6);
 }
 
 .experience-title {
@@ -35,8 +36,8 @@
 
 .timeline-particle {
   position: absolute;
-  width: 80px;
-  height: 80px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   background: linear-gradient(to bottom, #00c6ff, #0072ff);
   color: white;
@@ -66,6 +67,7 @@
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 10;
   background: white;
   color: black;
   padding: 10px 20px;
