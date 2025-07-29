@@ -103,13 +103,14 @@ export default function Experience() {
   const containerRef = useRef();
   const [particles, setParticles] = useState([]);
   const [activeYear, setActiveYear] = useState(null);
+  const bubbleSize = 150;
 
   const initializeParticles = () => {
     const bounds = containerRef.current.getBoundingClientRect();
     const newParticles = years.map((year) => ({
       year,
-      x: Math.random() * (bounds.width - 150),
-      y: Math.random() * (bounds.height - 150),
+      x: Math.random() * (bounds.width - bubbleSize),
+      y: Math.random() * (bounds.height - bubbleSize - 60),
       vx: Math.random() * 2 - 1,
       vy: Math.random() * 2 - 1,
     }));
@@ -127,8 +128,9 @@ export default function Experience() {
         prev.map((p) => {
           let { x, y, vx, vy } = p;
           const bounds = containerRef.current.getBoundingClientRect();
-          if (x + 150 >= bounds.width || x <= 0) vx *= -1;
-          if (y + 150 >= bounds.height - 70 || y <= 0) vy *= -1;
+
+          if (x + bubbleSize >= bounds.width || x <= 0) vx *= -1;
+          if (y + bubbleSize >= bounds.height - 60 || y <= 0) vy *= -1;
 
           return { ...p, x: x + vx, y: y + vy, vx, vy };
         })
@@ -153,25 +155,35 @@ export default function Experience() {
     <section id="experience">
       <h2>Professional Experience & Academic Milestones</h2>
       <p className="experience-intro">
-        Click the floating years below to view each milestone of my journey.
+        Every year brought growth. Explore the milestones that shaped me!
+        <br /> <em>Pick a year and see for yourself</em>
       </p>
-      <div className="experience-box" ref={containerRef}>
-        {particles.map((p, i) => (
-          <div
-            key={i}
-            className={`year-bubble ${p.year === "FUTURE" ? "future" : ""}`}
-            style={{ left: p.x, top: p.y }}
-            onClick={() => setActiveYear(p.year)}
-          >
-            {p.year}
-          </div>
-        ))}
+
+      <div className="experience-wrapper">
+        <div className="experience-box" ref={containerRef}>
+          {particles.map((p, i) => (
+            <div
+              key={i}
+              className={`year-bubble ${p.year === "FUTURE" ? "future" : ""}`}
+              style={{
+                left: `${p.x}px`,
+                top: `${p.y}px`,
+                width: `${bubbleSize}px`,
+                height: `${bubbleSize}px`,
+              }}
+              onClick={() => setActiveYear(p.year)}
+            >
+              {p.year}
+            </div>
+          ))}
+        </div>
+
         <a
           href="../media/ROLW Resume CV Nina Nkhwashu.pdf"
           className="download-btn"
           download
         >
-          <i className="fas fa-download"></i> Download CV
+          Download CV
         </a>
       </div>
 
@@ -196,8 +208,8 @@ export default function Experience() {
                   ))}
                 </ul>
                 <div className="modal-nav">
-                  <button onClick={prevYear}>&larr;</button>
-                  <button onClick={nextYear}>&rarr;</button>
+                  <button onClick={prevYear}>&#10094;</button>
+                  <button onClick={nextYear}>&#10095;</button>
                 </div>
               </div>
             </div>

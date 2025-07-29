@@ -1,6 +1,6 @@
 #experience {
-  background: #000;
-  padding: 80px 20px;
+  background: rgba(20, 11, 5, 0.6);
+  padding: 40px 20px;
   color: #fff;
   text-align: center;
   position: relative;
@@ -8,19 +8,19 @@
 
 #experience h2 {
   font-size: 36px;
-  color: #65fe08;
+  color: white;
   margin-bottom: 10px;
 }
 
 .experience-intro {
-  color: #aaa;
+  color: rgba(255, 255, 255, 0.85);
   margin-bottom: 30px;
   font-size: 18px;
 }
 
 .experience-box {
   height: 70vh;
-  border: 2px solid rgba(101, 254, 8, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.2);
   border-radius: 15px;
   position: relative;
   overflow: hidden;
@@ -33,7 +33,7 @@
   position: absolute;
   width: 120px;
   height: 120px;
-  background: linear-gradient(to bottom, #50d6fe, #1e5dac);
+  background: linear-gradient(40deg, #8b5e3c, #070601);
   border-radius: 50%;
   color: #fff;
   font-weight: bold;
@@ -53,7 +53,7 @@
 }
 
 .year-bubble.future {
-  background: linear-gradient(to bottom, #e74c3c, #f39c12);
+  background: linear-gradient(to bottom, #1b922b, #4f680b);
 }
 
 .download-btn {
@@ -61,7 +61,8 @@
   bottom: 25px;
   left: 50%;
   transform: translateX(-50%);
-  background: #f1642e;
+  background-color: #8b5e3c;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   color: white;
   padding: 15px 30px;
   border-radius: 50px;
@@ -72,7 +73,7 @@
 }
 
 .download-btn:hover {
-  background: #65fe08;
+  background: linear-gradient(to bottom, #1b922b, #4f680b);
 }
 
 .year-modal {
@@ -95,7 +96,7 @@
   max-width: 950px;
   width: 90%;
   position: relative;
-  border: 1px solid #50d6fe;
+  border: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 .close-btn {
@@ -134,7 +135,7 @@
 }
 
 .modal-info h4 {
-  color: #65fe08;
+  color: #8b5e3c;
   margin-bottom: 15px;
 }
 
