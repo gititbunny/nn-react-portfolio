@@ -110,9 +110,9 @@ export default function Experience() {
     const newParticles = years.map((year) => ({
       year,
       x: Math.random() * (bounds.width - bubbleSize),
-      y: Math.random() * (bounds.height - bubbleSize - 60),
-      vx: Math.random() * 2 - 1,
-      vy: Math.random() * 2 - 1,
+      y: Math.random() * (bounds.height - bubbleSize),
+      vx: Math.random() * 2.8 - 1,
+      vy: Math.random() * 2.8 - 1,
     }));
     setParticles(newParticles);
   };
@@ -130,7 +130,7 @@ export default function Experience() {
           const bounds = containerRef.current.getBoundingClientRect();
 
           if (x + bubbleSize >= bounds.width || x <= 0) vx *= -1;
-          if (y + bubbleSize >= bounds.height - 60 || y <= 0) vy *= -1;
+          if (y + bubbleSize >= bounds.height || y <= 0) vy *= -1;
 
           return { ...p, x: x + vx, y: y + vy, vx, vy };
         })
