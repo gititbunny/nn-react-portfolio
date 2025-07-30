@@ -9,7 +9,7 @@ export default function Contact() {
       <div className="contact-container">
         <div className="contact-left">
           <p>
-            <strong>Contact Me:</strong> <br />
+            Contact Me: <br />
             <a href="mailto:ninankhwashu@gmail.com">ninankhwashu@gmail.com</a>
           </p>
           <div className="social-icons">
@@ -34,6 +34,7 @@ export default function Contact() {
         </div>
 
         <div className="contact-right">
+          <p>Send A Message</p>
           <form
             name="contact"
             method="POST"

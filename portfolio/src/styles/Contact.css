@@ -1,5 +1,5 @@
 #contact {
-  padding: 60px 20px;
+  padding: 40px 20px;
   color: #fff;
   background-color: rgba(46, 25, 12, 0.6);
   text-align: center;
@@ -8,6 +8,7 @@
 #contact h2 {
   font-size: 32px;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .contact-container {
@@ -26,20 +27,20 @@
 }
 
 .contact-left p {
-  font-size: 16px;
+  font-size: 24px;
   margin-bottom: 15px;
 }
 
 .contact-left a {
-  color: #00aaff;
+  color: #ff8e48;
   text-decoration: none;
 }
 
 .social-icons {
   display: flex;
   gap: 20px;
-  font-size: 28px;
-  margin-top: 10px;
+  font-size: 34px;
+  margin-top: 14px;
 }
 
 .social-icons a {
@@ -50,6 +51,11 @@
 .social-icons a:hover {
   transform: scale(1.2);
   color: #00aaff;
+}
+
+.contact-right p {
+  font-size: 24px;
+  margin-bottom: 15px;
 }
 
 .contact-form {
@@ -70,7 +76,7 @@
 }
 
 .contact-form button {
-  background: #00aaff;
+  background: #48230c;
   color: #fff;
   padding: 12px;
   border: none;
