@@ -15,7 +15,7 @@ function Footer() {
   }, []);
 
   return (
-    <footer className="footer text-white mt-5">
+    <footer className="footer text-white">
       <div className="container">
         <div className="row align-items-center text-center text-md-start">
           <div className="col-md-6 mb-3 mb-md-0">
