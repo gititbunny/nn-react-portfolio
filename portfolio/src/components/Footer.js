@@ -19,7 +19,9 @@ function Footer() {
       <div className="container">
         <div className="row align-items-center text-center text-md-start">
           <div className="col-md-6 mb-3 mb-md-0">
-            <p className="mb-0">© 2025 Nina Nkhwashu. All Rights Reserved.</p>
+            <p className="mb-0">
+              © {new Date().getFullYear()} Nina Nkhwashu. All Rights Reserved.
+            </p>
           </div>
           <div className="col-md-6">
             <div className="social-icons d-flex justify-content-md-end justify-content-center gap-4">

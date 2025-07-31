@@ -89,3 +89,13 @@
 .contact-form button:hover {
   background: #007acc;
 }
+
+.success-msg {
+  color: #00ffae;
+  margin-top: 10px;
+}
+
+.error-msg {
+  color: #ff5b5b;
+  margin-top: 10px;
+}
