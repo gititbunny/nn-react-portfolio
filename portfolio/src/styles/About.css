@@ -18,6 +18,18 @@
   color: #ffffff;
 }
 
+.read-more {
+  color: #00bfff;
+  cursor: pointer;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.read-more:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   .about-text {
     font-size: 15px;

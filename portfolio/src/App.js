@@ -15,11 +15,11 @@ function App() {
       <BackgroundOverlay />
       <CustomNavbar />
       <Spotlight />
+      <About />
       <Projects />
       <Skills />
       <Experience />
       <Contact />
-      <About />
       <Footer />
     </div>
   );
