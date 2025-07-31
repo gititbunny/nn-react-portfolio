@@ -4,32 +4,35 @@ import "../styles/Projects.css";
 const projects = [
   {
     id: 1,
-    title: "Arcane Chronicles",
-    image: "../media/Arcane Chronicles.png",
-    video: "../media/Arcane Chronicles.mp4",
-    shortDescription: "Lore-based interactive quiz game",
-    fullDescription:
-      "An immersive quiz game exploring the world of Arcane, complete with custom logic, character-specific arcs, DOM scripting, and interactive animations.",
-    tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
-    link: "https://arcanequizgame.netlify.app/",
-  },
-  {
-    id: 2,
     title: "Pathpholio",
     image: "../media/Pathpholio.png",
     video: "../media/Pathpholio.mp4",
-    shortDescription: "Lore-based interactive quiz game",
+    shortDescription:
+      "An interactive job application tracker that helps users organize job applications",
     fullDescription:
       "An immersive quiz game exploring the world of Arcane, complete with custom logic, character-specific arcs, DOM scripting, and interactive animations.",
     tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
     link: "https://pathpholio.netlify.app/",
   },
   {
+    id: 2,
+    title: "The Lyrithium Engine",
+    image: "../media/The Lyrithium Engine.png",
+    video: "../media/The Lyrithium Engine.mp4",
+    shortDescription:
+      "An elegant AI-powered romantic message generator using the Shecodes AI API",
+    fullDescription:
+      "An immersive quiz game exploring the world of Arcane, complete with custom logic, character-specific arcs, DOM scripting, and interactive animations.",
+    tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
+    link: "https://thelyrithiumengine.netlify.app/",
+  },
+  {
     id: 3,
     title: "Arcane Chronicles",
     image: "../media/Arcane Chronicles.png",
     video: "../media/Arcane Chronicles.mp4",
-    shortDescription: "Lore-based interactive quiz game",
+    shortDescription:
+      "An immersive, character-based quiz game inspired by Arcane: League of Legends.",
     fullDescription:
       "An immersive quiz game exploring the world of Arcane, complete with custom logic, character-specific arcs, DOM scripting, and interactive animations.",
     tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
@@ -37,58 +40,57 @@ const projects = [
   },
   {
     id: 4,
-    title: "Arcane Chronicles",
-    image: "../media/Arcane Chronicles.png",
-    video: "../media/Arcane Chronicles.mp4",
-    shortDescription: "Lore-based interactive quiz game",
+    title: "Tech Hub Solutions",
+    image: "../media/Tech Hub Solutions.png",
+    video: "../media/Tech Hub Solutions.mp4",
+    shortDescription:
+      "A responsive business website built for an office equipment supplier in Limpopo",
     fullDescription:
       "An immersive quiz game exploring the world of Arcane, complete with custom logic, character-specific arcs, DOM scripting, and interactive animations.",
     tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
-    link: "https://arcanequizgame.netlify.app/",
+    link: "https://techhubsolutions.netlify.app/",
   },
   {
     id: 5,
-    title: "Arcane Chronicles",
-    image: "../media/Arcane Chronicles.png",
-    video: "../media/Arcane Chronicles.mp4",
-    shortDescription: "Lore-based interactive quiz game",
-    fullDescription:
-      "An immersive quiz game exploring the world of Arcane, complete with custom logic, character-specific arcs, DOM scripting, and interactive animations.",
+    title: "Coming Soon",
+    image: "../media/Coming Soon.jpg",
+    video: "../media/Coming Soon.mp4",
+    shortDescription: "Project description coming soon",
+    fullDescription: "Project description coming soon",
     tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
-    link: "https://arcanequizgame.netlify.app/",
+    link: "https://comingsoon.netlify.app/",
   },
   {
     id: 6,
-    title: "Arcane Chronicles",
-    image: "../media/Arcane Chronicles.png",
-    video: "../media/Arcane Chronicles.mp4",
-    shortDescription: "Lore-based interactive quiz game",
+    title: "Pexzzles",
+    image: "../media/Pexzzles.png",
+    video: "../media/Pexzzles.mp4",
+    shortDescription:
+      "A drag-and-drop photo puzzle game that lets users search for images using the Pexels API ",
     fullDescription:
       "An immersive quiz game exploring the world of Arcane, complete with custom logic, character-specific arcs, DOM scripting, and interactive animations.",
     tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
-    link: "https://arcanequizgame.netlify.app/",
+    link: "https://pexzzles.netlify.app/",
   },
   {
     id: 7,
-    title: "Arcane Chronicles",
-    image: "../media/Arcane Chronicles.png",
-    video: "../media/Arcane Chronicles.mp4",
-    shortDescription: "Lore-based interactive quiz game",
-    fullDescription:
-      "An immersive quiz game exploring the world of Arcane, complete with custom logic, character-specific arcs, DOM scripting, and interactive animations.",
+    title: "Coming Soon",
+    image: "../media/Coming Soon.jpg",
+    video: "../media/Coming Soon.mp4",
+    shortDescription: "Project description coming soon",
+    fullDescription: "Project description coming soon",
     tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
-    link: "https://arcanequizgame.netlify.app/",
+    link: "https://comingsoon.netlify.app/",
   },
   {
     id: 8,
-    title: "Arcane Chronicles",
-    image: "../media/Arcane Chronicles.png",
-    video: "../media/Arcane Chronicles.mp4",
-    shortDescription: "Lore-based interactive quiz game",
-    fullDescription:
-      "An immersive quiz game exploring the world of Arcane, complete with custom logic, character-specific arcs, DOM scripting, and interactive animations.",
+    title: "Coming Soon",
+    image: "../media/Coming Soon.jpg",
+    video: "../media/Coming Soon.mp4",
+    shortDescription: "Project description coming soon",
+    fullDescription: "Project description coming soon",
     tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
-    link: "https://arcanequizgame.netlify.app/",
+    link: "https://comingsoon.netlify.app/",
   },
 ];
 
