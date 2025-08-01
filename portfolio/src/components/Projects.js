@@ -145,17 +145,6 @@ function Projects() {
         >
           See more of my work
         </a>
-        <p className="projects-extra-text">
-          ...but Wait!!! I'm capable of more than just coding.
-        </p>
-        <div className="projects-extra-buttons">
-          <a href="/digital" className="extra-btn">
-            Check out my Digital Creator Work
-          </a>
-          <a href="/design" className="extra-btn">
-            Check out my Graphic Design Work
-          </a>
-        </div>
       </div>
 
       {selectedProject && (
