@@ -1,0 +1,69 @@
+.floating-icons {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 50px;
+  padding: 10px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
+
+@media (max-width: 768px) {
+  .floating-icons {
+    display: none;
+  }
+}
+
+.icon-wrapper {
+  position: relative;
+}
+
+.floating-icons a {
+  color: white;
+  font-size: 22px;
+  transition: transform 0.3s ease, color 0.3s ease;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.floating-icons a:hover {
+  transform: scale(1.3);
+}
+
+.floating-icons a:hover .fa-github {
+  color: #ccc;
+}
+
+.floating-icons a:hover .fa-linkedin {
+  color: #0a66c2;
+}
+
+.floating-icons a:hover .fa-envelope {
+  color: #f44336;
+}
+
+.tooltip {
+  position: absolute;
+  right: 110%;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #222;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+.icon-wrapper:hover .tooltip {
+  opacity: 1;
+}

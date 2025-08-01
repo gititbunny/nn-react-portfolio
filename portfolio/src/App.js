@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import BackgroundOverlay from "./components/BackgroundOverlay";
+import FloatingIcons from "./components/FloatingIcons";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Experience />
       <Contact />
       <Footer />
+      <FloatingIcons />
     </div>
   );
 }
