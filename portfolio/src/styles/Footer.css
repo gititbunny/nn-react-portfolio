@@ -1,26 +1,15 @@
-footer {
+.footer {
   background-color: rgba(46, 25, 12, 0.6);
   backdrop-filter: blur(6px);
   margin-top: auto;
   position: relative;
   z-index: 1;
   padding: 10px 0;
+  text-align: center;
 }
 
-.social-icons a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  transition: transform 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
-  text-decoration: none;
-}
-
-.social-icons a:hover {
-  transform: scale(1.2);
-  color: #ffd700; /* gold accent — change to your brand color */
-  box-shadow: 0 0 12px rgba(255, 215, 0, 0.6); /* soft glow */
-  background-color: rgba(255, 215, 0, 0.1); /* subtle halo */
+.footer p {
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 0;
 }
