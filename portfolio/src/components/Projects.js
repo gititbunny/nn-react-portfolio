@@ -10,7 +10,7 @@ const projects = [
     shortDescription:
       "An interactive job application tracker that helps users organize job applications",
     fullDescription:
-      "An immersive quiz game exploring the world of Arcane, complete with custom logic, character-specific arcs, DOM scripting, and interactive animations.",
+      "An interactive job application tracker that helps users organize and monitor their job applications in one place, with smart filtering and localStorage-powered persistence. Features: Add, filter, and delete job applications with live UI updates, localStorage persistence, status-based filtering, and real-time alerts.",
     tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
     link: "https://pathpholio.netlify.app/",
   },
@@ -22,7 +22,7 @@ const projects = [
     shortDescription:
       "An elegant AI-powered romantic message generator using the Shecodes AI API",
     fullDescription:
-      "An immersive quiz game exploring the world of Arcane, complete with custom logic, character-specific arcs, DOM scripting, and interactive animations.",
+      "An elegant AI-powered romantic message generator that transforms user prompts into short, romantic messages with a single click. It uses natural language processing to craft personalized 8-line messages in real time. Features: Typewriter animation for the message output, dynamic user input, SheCodes AI API integration, stylized message formatting, form validation, and loading indicator.",
     tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
     link: "https://thelyrithiumengine.netlify.app/",
   },
@@ -34,7 +34,7 @@ const projects = [
     shortDescription:
       "An immersive, character-based quiz game inspired by Arcane: League of Legends.",
     fullDescription:
-      "An immersive quiz game exploring the world of Arcane, complete with custom logic, character-specific arcs, DOM scripting, and interactive animations.",
+      "An immersive, character-based quiz game inspired by Arcane: League of Legends. Players test their knowledge of the series by answering character-based questions, unlocking rich lore & interactive visuals along the way. Features: Character selection system, quiz logic with score tracking, progress bar, custom animations (shimmer, shake, glow), real-time feedback, and a localStorage-based scoreboard.",
     tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
     link: "https://arcanequizgame.netlify.app/",
   },
@@ -46,7 +46,7 @@ const projects = [
     shortDescription:
       "A responsive business website built for an office equipment supplier in Limpopo",
     fullDescription:
-      "An immersive quiz game exploring the world of Arcane, complete with custom logic, character-specific arcs, DOM scripting, and interactive animations.",
+      "Tech Hub Solutions is a professionally crafted website that showcases the offerings of an office supply company. Features: dynamic product filtering, a customer testimonial slider, animated business stats, dark mode toggle, smooth scrolling navigation, and interactive modals for service requests and cart actions.",
     tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
     link: "https://techhubsolutions.netlify.app/",
   },
@@ -68,7 +68,7 @@ const projects = [
     shortDescription:
       "A drag-and-drop photo puzzle game that lets users search for images using the Pexels API ",
     fullDescription:
-      "An immersive quiz game exploring the world of Arcane, complete with custom logic, character-specific arcs, DOM scripting, and interactive animations.",
+      "A drag-and-drop photo puzzle game that lets users search for images using the Pexels API and solve them as customizable grid-based puzzles. Features: Drag & drop puzzle logic, image search, infinite scroll, timer, solution hint, and score tracking. ",
     tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
     link: "https://pexzzles.netlify.app/",
   },
