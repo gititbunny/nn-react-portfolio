@@ -16,84 +16,92 @@ const years = [
 
 const experienceData = {
   2015: {
-    title: "Academic Excellence & Leadership",
+    title: "Academic Excellence & Leadership (Meridian Combined School)",
     description: [
       "Graduated with a National Senior Certificate (Bachelor's Pass)",
-      "Passed: Geography, Life Sciences, English FAL, Xitsonga HL, LO, Math, Physical Sciences",
+      "Subjects Passed: Geography, Life Sciences, English FAL, Xitsonga HL, Life Orientation, Mathematics, Physical Sciences",
       "Head Girl, Prefect, and Top 10 Achiever",
     ],
     image: "../media/experience-placeholder.png",
   },
   2016: {
-    title: "Foundation in Tech Begins",
+    title: "BSc in Computer Science & Statistics",
     description: [
-      "Enrolled in BSc Mathematical Sciences: Computer Science & Stats",
-      "Built a solid foundation in analytical thinking",
+      "Enrolled at University of Limpopo for a BSc Mathematical Sciences degree, focusing on Computer Science and Statistics",
+      "Gained foundational exposure to programming, software development, problem-solving, analytical thinking, and data analysis",
     ],
     image: "../media/experience-placeholder.png",
   },
   2018: {
-    title: "A Strategic Shift",
+    title: "Pivoted to Industry-Focused Development",
     description: [
-      "Paused formal education to pursue independent growth",
-      "Shifted to skill-building and real-world experience",
+      "Transitioned from degree at the end of the school year 2018",
+      "Pursued practical training and self-taught development",
+      "Began building real-world projects as a hobby and exploring web development tools",
     ],
     image: "../media/experience-placeholder.png",
   },
   2019: {
-    title: "Self-Taught Designer",
+    title: "Gap Year and Personal Growth",
     description: [
-      "Learned Graphic Design independently",
-      "Traveled to France for a confidential campaign under NDA",
+      "Traveled to France, expanding my cultural awareness and creative perspective",
+      "Immersed in global design aesthetics and lifestyle influences that later shaped my branding work",
+      "Dedicated time to deepening my creative and graphic design skills in preparation for freelance work",
     ],
     image: "../media/experience-placeholder.png",
   },
   2020: {
-    title: "Freelance Growth",
+    title: "Freelance Graphic Designer",
     description: [
-      "Freelance Graphic Designer",
-      "Launched Etsy store – 474+ digital art sales globally",
+      "Created branding, website designs, and marketing assets for fashion, tech, and lifestyle clients",
+      "Launched Etsy shop with 480+ digital product sales globally",
+      "Delivered complete design packages from concept to delivery",
     ],
     image: "../media/experience-placeholder.png",
   },
   2021: {
-    title: "Professional Design Internship",
+    title: "Graphic Design Intern (Rikhotso IT Solutions)",
     description: [
-      "Graphic Design Intern at Rikhotso IT Solutions",
-      "Hands-on experience with professional editing tools",
+      "Designed visuals for marketing campaigns and brand communications",
+      "Explored UX/UI fundamentals and web design technologies",
+      "Collaborated with sales team to track performance via engagement metrics",
     ],
     image: "../media/experience-placeholder.png",
   },
   2022: {
-    title: "Creative Expansion",
+    title: "Digital Creator & Virtual Stylist (Laust Closet)",
     description: [
-      "Completed internship",
-      "Launched Virtual Stylist brand + Digital Creator services",
+      "Provided remote fashion styling services and consultations",
+      "Produced branded content including style guides, lookbooks, and video hauls",
+      "Managed social media and created digital assets for multi-platform use",
     ],
     image: "../media/experience-placeholder.png",
   },
   2024: {
-    title: "Entering Tech",
+    title: "Front-End Development (Delac Foundation SheCodes)",
     description: [
-      "Completed SheCodes Software Dev Cert Program",
-      "Built web apps, landing pages, explored AI basics",
+      "Built responsive UI projects using HTML, CSS, JavaScript, and APIs",
+      "Applied Bootstrap, SEO techniques, and GitHub-based workflows",
+      "Obtained 5 certifications in front-end development",
     ],
     image: "../media/experience-placeholder.png",
   },
   2025: {
-    title: "Advancing Full-Stack Skills",
+    title:
+      "Front-End and Full-Stack Development Diplomas (Delac Foundation SheCodes)",
     description: [
-      "Currently upskilling in React, Python, APIs, Bootstrap",
-      "Focused on building scalable real-world apps",
+      "Developed full-stack applications using Python, React, APIs, and Git",
+      "Learned Data Structures, File Handling, AI integration, and Backend logic",
+      "Obtained 8 certifications in full-stack development and 2 Diplomas in Front-End and Full-Stack Development respectively",
     ],
     image: "../media/experience-placeholder.png",
   },
   FUTURE: {
-    title: "Future Goals",
+    title: "What’s Next?",
     description: [
-      "Master AI, Data Structures, and Full-Stack Tools",
-      "Earn more certifications + return to university",
-      "Join a growth-driven team and build AI-powered tools",
+      "Currently seeking junior roles in front-end, full-stack, or software development",
+      "Passionate about solving real-world problems with user-centered solutions",
+      "Open to remote or international opportunities with growth potential",
     ],
     image: "../media/experience-placeholder.png",
   },
