@@ -16,21 +16,21 @@ const years = [
 
 const experienceData = {
   2015: {
-    title: "Academic Excellence & Leadership (Meridian Combined School)",
+    title: "Academic Excellence & Leadership - Meridian Combined School",
     description: [
       "Graduated with a National Senior Certificate (Bachelor's Pass)",
       "Subjects Passed: Geography, Life Sciences, English FAL, Xitsonga HL, Life Orientation, Mathematics, Physical Sciences",
       "Head Girl, Prefect, and Top 10 Achiever",
     ],
-    image: "../media/experience-placeholder.png",
+    image: "../media/2015.png",
   },
   2016: {
-    title: "BSc in Computer Science & Statistics",
+    title: "BSc in Computer Science & Statistics - University Of Limpopo",
     description: [
-      "Enrolled at University of Limpopo for a BSc Mathematical Sciences degree, focusing on Computer Science and Statistics",
+      "Enrolled at University of Limpopo for a BSc Mathematical Sciences degree (Incomplete), focusing on Computer Science and Statistics",
       "Gained foundational exposure to programming, software development, problem-solving, analytical thinking, and data analysis",
     ],
-    image: "../media/experience-placeholder.png",
+    image: "../media/2016.png",
   },
   2018: {
     title: "Pivoted to Industry-Focused Development",
@@ -39,7 +39,7 @@ const experienceData = {
       "Pursued practical training and self-taught development",
       "Began building real-world projects as a hobby and exploring web development tools",
     ],
-    image: "../media/experience-placeholder.png",
+    image: "../media/2018.png",
   },
   2019: {
     title: "Gap Year and Personal Growth",
@@ -48,7 +48,7 @@ const experienceData = {
       "Immersed in global design aesthetics and lifestyle influences that later shaped my branding work",
       "Dedicated time to deepening my creative and graphic design skills in preparation for freelance work",
     ],
-    image: "../media/experience-placeholder.png",
+    image: "../media/2019.png",
   },
   2020: {
     title: "Freelance Graphic Designer",
@@ -57,44 +57,44 @@ const experienceData = {
       "Launched Etsy shop with 480+ digital product sales globally",
       "Delivered complete design packages from concept to delivery",
     ],
-    image: "../media/experience-placeholder.png",
+    image: "../media/2020.png",
   },
   2021: {
-    title: "Graphic Design Intern (Rikhotso IT Solutions)",
+    title: "Graphic Design Intern - Rikhotso IT Solutions",
     description: [
       "Designed visuals for marketing campaigns and brand communications",
       "Explored UX/UI fundamentals and web design technologies",
       "Collaborated with sales team to track performance via engagement metrics",
     ],
-    image: "../media/experience-placeholder.png",
+    image: "../media/2021.png",
   },
   2022: {
-    title: "Digital Creator & Virtual Stylist (Laust Closet)",
+    title: "Digital Creator & Virtual Stylist - Laust Closet",
     description: [
       "Provided remote fashion styling services and consultations",
       "Produced branded content including style guides, lookbooks, and video hauls",
       "Managed social media and created digital assets for multi-platform use",
     ],
-    image: "../media/experience-placeholder.png",
+    image: "../media/2022.png",
   },
   2024: {
-    title: "Front-End Development (Delac Foundation SheCodes)",
+    title: "Front-End Development - Delac Foundation SheCodes",
     description: [
       "Built responsive UI projects using HTML, CSS, JavaScript, and APIs",
       "Applied Bootstrap, SEO techniques, and GitHub-based workflows",
       "Obtained 5 certifications in front-end development",
     ],
-    image: "../media/experience-placeholder.png",
+    image: "../media/2024.png",
   },
   2025: {
     title:
-      "Front-End and Full-Stack Development Diplomas (Delac Foundation SheCodes)",
+      "Front-End and Full-Stack Development Diplomas - Delac Foundation SheCodes",
     description: [
       "Developed full-stack applications using Python, React, APIs, and Git",
       "Learned Data Structures, File Handling, AI integration, and Backend logic",
       "Obtained 8 certifications in full-stack development and 2 Diplomas in Front-End and Full-Stack Development respectively",
     ],
-    image: "../media/experience-placeholder.png",
+    image: "../media/2025.png",
   },
   FUTURE: {
     title: "What’s Next?",
@@ -103,7 +103,7 @@ const experienceData = {
       "Passionate about solving real-world problems with user-centered solutions",
       "Open to remote or international opportunities with growth potential",
     ],
-    image: "../media/experience-placeholder.png",
+    image: "../media/future.png",
   },
 };
 

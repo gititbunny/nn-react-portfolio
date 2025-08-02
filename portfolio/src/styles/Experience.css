@@ -147,7 +147,8 @@
 .modal-nav {
   margin-top: 20px;
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .modal-nav button {
@@ -174,7 +175,7 @@
   }
 
   .modal-img {
-    width: 50%;
-    max-height: 100px;
+    width: 25%;
+    height: 25%;
   }
 }
