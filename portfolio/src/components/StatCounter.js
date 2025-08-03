@@ -6,29 +6,42 @@ function StatCounter({ label, end }) {
 
   useEffect(() => {
     let observer;
+    let timer;
+    const target = ref.current;
+
     const animate = () => {
       let start = 0;
-      const duration = 1500;
+      const duration = 1400;
       const stepTime = Math.abs(Math.floor(duration / end));
-      const timer = setInterval(() => {
+      clearInterval(timer);
+
+      timer = setInterval(() => {
         start += 1;
         setCount(start);
         if (start === end) clearInterval(timer);
       }, stepTime);
     };
 
-    if (ref.current) {
+    if (target) {
       observer = new IntersectionObserver(
         ([entry]) => {
           if (entry.isIntersecting) {
             animate();
-            observer.disconnect();
+          } else {
+            setCount(0);
           }
         },
-        { threshold: 1 }
+        { threshold: 0.6 }
       );
-      observer.observe(ref.current);
+      observer.observe(target);
     }
+
+    return () => {
+      if (observer && target) {
+        observer.unobserve(target);
+      }
+      clearInterval(timer);
+    };
   }, [end]);
 
   return (
