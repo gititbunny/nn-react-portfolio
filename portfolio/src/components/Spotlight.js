@@ -23,12 +23,21 @@ function Spotlight() {
             <br />
             <em>Strap in...the ride's just getting started!</em>
           </p>
-          <a
-            href="#projects"
-            className="btn btn-outline-light explore-button mt-3"
-          >
-            Explore My Work
-          </a>
+          <div className="button-row">
+            <a
+              href="#projects"
+              className="btn btn-outline-light explore-button"
+            >
+              Explore My Work
+            </a>
+            <a
+              href="../media/ROLW Resume CV Nina Nkhwashu.pdf"
+              className="btn btn-outline-light download-button"
+              download
+            >
+              Download CV
+            </a>
+          </div>
         </div>
       </div>
     </section>
