@@ -17,6 +17,26 @@ const projects = [
   },
   {
     id: 2,
+    title: "Weathif",
+    image: "../media/Weathif.png",
+    video: "../media/Coming Soon.mp4",
+    shortDescription:
+      "A climate scenario simulator that visualizes how temperature and rainfall changes could impact local environments.",
+    fullDescription:
+      "Weathif is a Streamlit-powered climate scenario simulator and local weather storyteller. It allows users to enter any location, adjust hypothetical climate change factors like temperature and rainfall, and visualize the projected environmental impact. Features include live geolocation, weather overlays (rain, clouds, temperature, satellite), dynamic charts, and real-time scenario feedback with clear environmental consequences.",
+    tools: [
+      "Python",
+      "Streamlit",
+      "Pandas",
+      "Matplotlib",
+      "Folium",
+      "Geopy",
+      "OpenWeatherMap API",
+    ],
+    link: "https://weathif.streamlit.app/",
+  },
+  {
+    id: 3,
     title: "The Lyrithium Engine",
     image: "../media/The Lyrithium Engine.png",
     video: "../media/The Lyrithium Engine.mp4",
@@ -26,18 +46,6 @@ const projects = [
       "An elegant AI-powered romantic message generator that transforms user prompts into short, romantic messages with a single click. It uses natural language processing to craft personalized 8-line messages in real time. Features: Typewriter animation for the message output, dynamic user input, SheCodes AI API integration, stylized message formatting, form validation, and loading indicator.",
     tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
     link: "https://thelyrithiumengine.netlify.app/",
-  },
-  {
-    id: 3,
-    title: "Arcane Chronicles",
-    image: "../media/Arcane Chronicles.png",
-    video: "../media/Arcane Chronicles.mp4",
-    shortDescription:
-      "An immersive, character-based quiz game inspired by Arcane: League of Legends.",
-    fullDescription:
-      "An immersive, character-based quiz game inspired by Arcane: League of Legends. Players test their knowledge of the series by answering character-based questions, unlocking rich lore & interactive visuals along the way. Features: Character selection system, quiz logic with score tracking, progress bar, custom animations (shimmer, shake, glow), real-time feedback, and a localStorage-based scoreboard.",
-    tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
-    link: "https://arcanequizgame.netlify.app/",
   },
   {
     id: 4,
@@ -85,13 +93,15 @@ const projects = [
   },
   {
     id: 8,
-    title: "Coming Soon",
-    image: "../media/Coming Soon.jpg",
-    video: "../media/Coming Soon.mp4",
-    shortDescription: "Project description coming soon",
-    fullDescription: "Project description coming soon",
+    title: "Arcane Chronicles",
+    image: "../media/Arcane Chronicles.png",
+    video: "../media/Arcane Chronicles.mp4",
+    shortDescription:
+      "An immersive, character-based quiz game inspired by Arcane: League of Legends.",
+    fullDescription:
+      "An immersive, character-based quiz game inspired by Arcane: League of Legends. Players test their knowledge of the series by answering character-based questions, unlocking rich lore & interactive visuals along the way. Features: Character selection system, quiz logic with score tracking, progress bar, custom animations (shimmer, shake, glow), real-time feedback, and a localStorage-based scoreboard.",
     tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
-    link: "https://comingsoon.netlify.app/",
+    link: "https://arcanequizgame.netlify.app/",
   },
 ];
 
