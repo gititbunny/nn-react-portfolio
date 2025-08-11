@@ -5,6 +5,25 @@ import "../styles/Projects.css";
 const projects = [
   {
     id: 1,
+    title: "Aurwrite",
+    image: "../media/Aurwrite.png",
+    video: "../media/Coming Soon.mp4",
+    shortDescription:
+      "An AI-powered 'Audio-to-Story' remix tool that transforms voice notes into narrated stories in multiple styles.",
+    fullDescription:
+      "Aurwrite is a fantasy-themed, dark-mode storytelling app built with Streamlit. Users upload a short audio file (like a voice note), which is transcribed with Whisper, rewritten in one of four styles — Fairy Tale, News Article, Stand-Up Comedy, or Horror — using a local LLM, and then narrated back using free TTS libraries (pyttsx3 or edge-tts). Features include a handwritten font style, fantasy-inspired dark UI, sidebar navigation, live playback, and LinkedIn credit link.",
+    tools: [
+      "Python",
+      "Streamlit",
+      "OpenAI Whisper",
+      "Transformers",
+      "pyttsx3",
+      "edge-tts",
+      "FFmpeg"
+    ],
+    link: "https://github.com/ninankhwashu/aurwrite",
+}, {
+    id: 2,
     title: "Pathpholio",
     image: "../media/Pathpholio.png",
     video: "../media/Pathpholio.mp4",
@@ -16,7 +35,7 @@ const projects = [
     link: "https://pathpholio.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Weathif",
     image: "../media/Weathif.png",
     video: "../media/Coming Soon.mp4",
@@ -36,7 +55,7 @@ const projects = [
     link: "https://weathif.streamlit.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "The Lyrithium Engine",
     image: "../media/The Lyrithium Engine.png",
     video: "../media/The Lyrithium Engine.mp4",
@@ -48,7 +67,7 @@ const projects = [
     link: "https://thelyrithiumengine.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Tech Hub Solutions",
     image: "../media/Tech Hub Solutions.png",
     video: "../media/Tech Hub Solutions.mp4",
@@ -60,7 +79,7 @@ const projects = [
     link: "https://techhubsolutions.netlify.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Coming Soon",
     image: "../media/Coming Soon.jpg",
     video: "../media/Coming Soon.mp4",
@@ -70,7 +89,7 @@ const projects = [
     link: "https://comingsoon.netlify.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Pexzzles",
     image: "../media/Pexzzles.png",
     video: "../media/Pexzzles.mp4",
@@ -80,16 +99,6 @@ const projects = [
       "A drag-and-drop photo puzzle game that lets users search for images using the Pexels API and solve them as customizable grid-based puzzles. Features: Drag & drop puzzle logic, image search, infinite scroll, timer, solution hint, and score tracking. ",
     tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
     link: "https://pexzzles.netlify.app/",
-  },
-  {
-    id: 7,
-    title: "Coming Soon",
-    image: "../media/Coming Soon.jpg",
-    video: "../media/Coming Soon.mp4",
-    shortDescription: "Project description coming soon",
-    fullDescription: "Project description coming soon",
-    tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
-    link: "https://comingsoon.netlify.app/",
   },
   {
     id: 8,
