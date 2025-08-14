@@ -61,7 +61,7 @@ const projects = [
     image: "../media/Trovule.png",
     video: "../media/Coming Soon.mp4",
     shortDescription:
-      "A playful road trip buddy that checks weather for your route and generates a simple day by day itinerary with ZAR estimates.",
+      "A playful road trip buddy that checks weather for your route and generates a simple and quick day by day itinerary with ZAR estimates.",
     fullDescription:
       "Trovule is a Streamlit road trip planner with a permanent video background, a sunny theme, and fun confetti bursts. Enter origin, destination, and trip length to fetch quick weather peeks for both cities and receive a concise markdown itinerary with daily budget guidance in ZAR. The UI uses a fixed video layer with a soft gradient veil, custom input styling, dotted route pills, and friendly messages. Robust error handling keeps things smooth when APIs fail.",
     tools: [
