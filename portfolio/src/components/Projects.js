@@ -57,30 +57,6 @@ const projects = [
   },
   {
     id: 4,
-    title: "The Lyrithium Engine",
-    image: "../media/The Lyrithium Engine.png",
-    video: "../media/The Lyrithium Engine.mp4",
-    shortDescription:
-      "An elegant AI-powered romantic message generator using the Shecodes AI API",
-    fullDescription:
-      "An elegant AI-powered romantic message generator that transforms user prompts into short, romantic messages with a single click. It uses natural language processing to craft personalized 8-line messages in real time. Features: Typewriter animation for the message output, dynamic user input, SheCodes AI API integration, stylized message formatting, form validation, and loading indicator.",
-    tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
-    link: "https://thelyrithiumengine.netlify.app/",
-  },
-  {
-    id: 5,
-    title: "Tech Hub Solutions",
-    image: "../media/Tech Hub Solutions.png",
-    video: "../media/Tech Hub Solutions.mp4",
-    shortDescription:
-      "A responsive business website built for an office equipment supplier in Limpopo",
-    fullDescription:
-      "Tech Hub Solutions is a professionally crafted website that showcases the offerings of an office supply company. Features: dynamic product filtering, a customer testimonial slider, animated business stats, dark mode toggle, smooth scrolling navigation, and interactive modals for service requests and cart actions.",
-    tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
-    link: "https://techhubsolutions.netlify.app/",
-  },
-  {
-    id: 4,
     title: "Trovule",
     image: "../media/Trovule.png",
     video: "../media/Coming Soon.mp4",
@@ -99,6 +75,30 @@ const projects = [
       "SheCodes API",
     ],
     link: "https://trovule.streamlit.app/",
+  },
+  {
+    id: 5,
+    title: "Tech Hub Solutions",
+    image: "../media/Tech Hub Solutions.png",
+    video: "../media/Tech Hub Solutions.mp4",
+    shortDescription:
+      "A responsive business website built for an office equipment supplier in Limpopo",
+    fullDescription:
+      "Tech Hub Solutions is a professionally crafted website that showcases the offerings of an office supply company. Features: dynamic product filtering, a customer testimonial slider, animated business stats, dark mode toggle, smooth scrolling navigation, and interactive modals for service requests and cart actions.",
+    tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
+    link: "https://techhubsolutions.netlify.app/",
+  },
+  {
+    id: 6,
+    title: "The Lyrithium Engine",
+    image: "../media/The Lyrithium Engine.png",
+    video: "../media/The Lyrithium Engine.mp4",
+    shortDescription:
+      "An elegant AI-powered romantic message generator using the Shecodes AI API",
+    fullDescription:
+      "An elegant AI-powered romantic message generator that transforms user prompts into short, romantic messages with a single click. It uses natural language processing to craft personalized 8-line messages in real time. Features: Typewriter animation for the message output, dynamic user input, SheCodes AI API integration, stylized message formatting, form validation, and loading indicator.",
+    tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
+    link: "https://thelyrithiumengine.netlify.app/",
   },
   {
     id: 7,
