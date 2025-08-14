@@ -36,6 +36,26 @@ const projects = [
     link: "https://github.com/ninankhwashu/aurwrite",
   },
   {
+    id: 3,
+    title: "Weathif",
+    image: "../media/Weathif.png",
+    video: "../media/Coming Soon.mp4",
+    shortDescription:
+      "A climate scenario simulator that visualizes how temperature and rainfall changes could impact local environments.",
+    fullDescription:
+      "Weathif is a Streamlit-powered climate scenario simulator and local weather storyteller. It allows users to enter any location, adjust hypothetical climate change factors like temperature and rainfall, and visualize the projected environmental impact. Features include live geolocation, weather overlays (rain, clouds, temperature, satellite), dynamic charts, and real-time scenario feedback with clear environmental consequences.",
+    tools: [
+      "Python",
+      "Streamlit",
+      "Pandas",
+      "Matplotlib",
+      "Folium",
+      "Geopy",
+      "OpenWeatherMap API",
+    ],
+    link: "https://weathif.streamlit.app/",
+  },
+  {
     id: 4,
     title: "Trovule",
     image: "../media/Trovule.png",
