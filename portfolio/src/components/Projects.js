@@ -19,10 +19,11 @@ const projects = [
       "Transformers",
       "pyttsx3",
       "edge-tts",
-      "FFmpeg"
+      "FFmpeg",
     ],
     link: "https://github.com/ninankhwashu/aurwrite",
-}, {
+  },
+  {
     id: 2,
     title: "Pathpholio",
     image: "../media/Pathpholio.png",
@@ -79,14 +80,25 @@ const projects = [
     link: "https://techhubsolutions.netlify.app/",
   },
   {
-    id: 6,
-    title: "Coming Soon",
-    image: "../media/Coming Soon.jpg",
+    id: 4,
+    title: "Trovule",
+    image: "../media/Trovule.png",
     video: "../media/Coming Soon.mp4",
-    shortDescription: "Project description coming soon",
-    fullDescription: "Project description coming soon",
-    tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
-    link: "https://comingsoon.netlify.app/",
+    shortDescription:
+      "A playful road trip buddy that checks weather for your route and generates a simple day by day itinerary with ZAR estimates.",
+    fullDescription:
+      "Trovule is a Streamlit road trip planner with a permanent video background, a sunny theme, and fun confetti bursts. Enter origin, destination, and trip length to fetch quick weather peeks for both cities and receive a concise markdown itinerary with daily budget guidance in ZAR. The UI uses a fixed video layer with a soft gradient veil, custom input styling, dotted route pills, and friendly messages. Robust error handling keeps things smooth when APIs fail.",
+    tools: [
+      "Python",
+      "Streamlit",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "python-dotenv",
+      "canvas-confetti",
+      "SheCodes API",
+    ],
+    link: "https://trovule.streamlit.app/",
   },
   {
     id: 7,
