@@ -5,6 +5,18 @@ import "../styles/Projects.css";
 const projects = [
   {
     id: 1,
+    title: "Pathpholio",
+    image: "../media/Pathpholio.png",
+    video: "../media/Pathpholio.mp4",
+    shortDescription:
+      "An interactive job application tracker that helps users organize job applications",
+    fullDescription:
+      "An interactive job application tracker that helps users organize and monitor their job applications in one place, with smart filtering and localStorage-powered persistence. Features: Add, filter, and delete job applications with live UI updates, localStorage persistence, status-based filtering, and real-time alerts.",
+    tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
+    link: "https://pathpholio.netlify.app/",
+  },
+  {
+    id: 2,
     title: "Aurwrite",
     image: "../media/Aurwrite.png",
     video: "../media/Coming Soon.mp4",
@@ -22,38 +34,6 @@ const projects = [
       "FFmpeg",
     ],
     link: "https://github.com/ninankhwashu/aurwrite",
-  },
-  {
-    id: 2,
-    title: "Pathpholio",
-    image: "../media/Pathpholio.png",
-    video: "../media/Pathpholio.mp4",
-    shortDescription:
-      "An interactive job application tracker that helps users organize job applications",
-    fullDescription:
-      "An interactive job application tracker that helps users organize and monitor their job applications in one place, with smart filtering and localStorage-powered persistence. Features: Add, filter, and delete job applications with live UI updates, localStorage persistence, status-based filtering, and real-time alerts.",
-    tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
-    link: "https://pathpholio.netlify.app/",
-  },
-  {
-    id: 3,
-    title: "Weathif",
-    image: "../media/Weathif.png",
-    video: "../media/Coming Soon.mp4",
-    shortDescription:
-      "A climate scenario simulator that visualizes how temperature and rainfall changes could impact local environments.",
-    fullDescription:
-      "Weathif is a Streamlit-powered climate scenario simulator and local weather storyteller. It allows users to enter any location, adjust hypothetical climate change factors like temperature and rainfall, and visualize the projected environmental impact. Features include live geolocation, weather overlays (rain, clouds, temperature, satellite), dynamic charts, and real-time scenario feedback with clear environmental consequences.",
-    tools: [
-      "Python",
-      "Streamlit",
-      "Pandas",
-      "Matplotlib",
-      "Folium",
-      "Geopy",
-      "OpenWeatherMap API",
-    ],
-    link: "https://weathif.streamlit.app/",
   },
   {
     id: 4,
