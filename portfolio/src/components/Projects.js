@@ -180,9 +180,9 @@ function Projects() {
       </div>
 
       <div className="stats-row">
-        <StatCounter label="Projects Completed" end={24} />
-        <StatCounter label="GitHub Contributions" end={412} />
-        <StatCounter label="Tools & Technologies" end={28} />
+        <StatCounter label="Projects Completed" end={27} />
+        <StatCounter label="GitHub Contributions" end={507} />
+        <StatCounter label="Tools & Technologies" end={34} />
       </div>
 
       {selectedProject && (
