@@ -151,7 +151,7 @@ function Projects() {
 
   return (
     <section id="projects" className="projects-section">
-      <h2 className="projects-title">Some Of My Developer Projects</h2>
+      <h2 className="projects-title">Some Of My Projects</h2>
       <div className="projects-grid">
         {projects.map((project) => (
           <div className="project-card" key={project.id}>
