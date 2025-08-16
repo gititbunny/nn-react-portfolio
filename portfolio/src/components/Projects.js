@@ -92,14 +92,27 @@ const projects = [
   {
     id: 5,
     title: "Tech Hub Solutions",
-    image: "../media/Tech Hub Solutions.png",
-    video: "../media/Tech Hub Solutions.mp4",
+    image: "../media/TechHubSolutions.png",
+    video: "../media/Coming Soon.mp4",
     shortDescription:
-      "A responsive business website built for an office equipment supplier in Limpopo",
+      "A pixel-perfect React single-page site for an office equipment supplier—fully responsive with theme toggle, smooth navigation, and clean UX.",
     fullDescription:
-      "Tech Hub Solutions is a professionally crafted website that showcases the offerings of an office supply company. Features: dynamic product filtering, a customer testimonial slider, animated business stats, dark mode toggle, smooth scrolling navigation, and interactive modals for service requests and cart actions.",
-    tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
-    link: "https://techhubsolutions.netlify.app/",
+      "Tech Hub Solutions is a landing site for a Limpopo-based office equipment supplier providing sales, maintenance, and supplies to businesses across Tzaneen and surrounding areas. Features include a sticky header with smooth in-page scrolling (80px offset), a mobile drawer menu with body scroll lock, persistent light/dark theme toggle (localStorage), product category filters with an 'Add to Cart' modal, a testimonials carousel via react-slick, animated KPI counters using IntersectionObserver, a contact form with success modal, a back-to-top control, and small-screen polish for the brand row and hero image. Bootstrap is used for utilities while the custom CSS retains the visual identity.",
+    tools: [
+      "React",
+      "Vite",
+      "Bootstrap",
+      "React Bootstrap",
+      "React Slick",
+      "Slick Carousel CSS",
+      "Font Awesome",
+      "Google Fonts",
+      "CSS",
+      "JavaScript",
+      "IntersectionObserver",
+      "Netlify",
+    ],
+    link: "https://github.com/gititbunny/tech-hub-solutions",
   },
   {
     id: 6,
