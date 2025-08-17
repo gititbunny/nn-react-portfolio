@@ -26,7 +26,7 @@ const projects = [
       "CSS",
       "Netlify (deploy)",
     ],
-    link: "https://pathpholio.netlify.app/",
+    link: "https://pathpholio.netlify.app",
   },
   {
     id: 2,
@@ -66,7 +66,7 @@ const projects = [
       "Geopy",
       "OpenWeatherMap API",
     ],
-    link: "https://weathif.streamlit.app/",
+    link: "https://weathif.streamlit.app",
   },
   {
     id: 4,
@@ -87,7 +87,7 @@ const projects = [
       "canvas-confetti",
       "SheCodes API",
     ],
-    link: "https://trovule.streamlit.app/",
+    link: "https://trovule.streamlit.app",
   },
   {
     id: 5,
@@ -124,19 +124,28 @@ const projects = [
     fullDescription:
       "An elegant AI-powered romantic message generator that transforms user prompts into short, romantic messages with a single click. It uses natural language processing to craft personalized 8-line messages in real time. Features: Typewriter animation for the message output, dynamic user input, SheCodes AI API integration, stylized message formatting, form validation, and loading indicator.",
     tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
-    link: "https://thelyrithiumengine.netlify.app/",
+    link: "https://thelyrithiumengine.netlify.app",
   },
   {
     id: 7,
     title: "Pexzzles",
     image: "../media/Pexzzles.png",
-    video: "../media/Pexzzles.mp4",
+    video: "../media/Coming Soon.mp4",
     shortDescription:
-      "A drag-and-drop photo puzzle game that lets users search for images using the Pexels API ",
+      "A cognitive photo puzzle game for elders and brain-training enthusiasts. Search square photos from Unsplash, scramble them into tiles, and race the clock to restore the original.",
     fullDescription:
-      "A drag-and-drop photo puzzle game that lets users search for images using the Pexels API and solve them as customizable grid-based puzzles. Features: Drag & drop puzzle logic, image search, infinite scroll, timer, solution hint, and score tracking. ",
-    tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
-    link: "https://pexzzles.netlify.app/",
+      "Pexzzles is a React-based cognitive training photo puzzle designed for simplicity and joy. Players enter their name (used in results), choose a grid size (2×2, 4×4, 6×6, 8×8), and search square-only images via the Unsplash API. The chosen photo is scrambled into tiles—solvable by tapping to swap or drag-and-drop—and a large, readable timer tracks progress. A Daily Challenge mode uses a seeded shuffle so everyone gets the same layout each day, while Custom Puzzle lets users pick any keyword. Features include a 3-hint system (4-second original-image peek with automatic countdown), success modal with confetti and rotating encouraging messages, non-destructive Save Game, Start New Game, and a persistent Scoreboard Drawer (localStorage) showing time, moves, hints, grid size, and attribution. The interface is elder-friendly: centered layout, big buttons, clear contrast, and strict square images to avoid awkward crops. Unsplash requirements are respected (hotlinking, download trigger, proper photographer and Unsplash attribution).",
+    tools: [
+      "React",
+      "Vite",
+      "Bootstrap",
+      "React Icons",
+      "react-confetti",
+      "HTML5 Drag and Drop",
+      "Unsplash API",
+      "LocalStorage",
+    ],
+    link: "https://pexzzles.netlify.app",
   },
   {
     id: 8,
@@ -148,7 +157,7 @@ const projects = [
     fullDescription:
       "An immersive, character-based quiz game inspired by Arcane: League of Legends. Players test their knowledge of the series by answering character-based questions, unlocking rich lore & interactive visuals along the way. Features: Character selection system, quiz logic with score tracking, progress bar, custom animations (shimmer, shake, glow), real-time feedback, and a localStorage-based scoreboard.",
     tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
-    link: "https://arcanequizgame.netlify.app/",
+    link: "https://arcanequizgame.netlify.app",
   },
 ];
 
