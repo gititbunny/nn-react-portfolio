@@ -206,8 +206,8 @@ function Projects() {
       </div>
 
       <div className="stats-row">
-        <StatCounter label="Projects Completed" end={30} />
-        <StatCounter label="GitHub Contributions" end={541} />
+        <StatCounter label="Projects Completed" end={32} />
+        <StatCounter label="GitHub Contributions" end={580} />
         <StatCounter label="Tools & Technologies" end={34} />
       </div>
 
