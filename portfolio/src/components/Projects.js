@@ -46,7 +46,7 @@ const projects = [
       "edge-tts",
       "FFmpeg",
     ],
-    link: "https://github.com/ninankhwashu/aurwrite",
+    link: "https://aurwrite.streamlit.app/",
   },
   {
     id: 3,
@@ -92,7 +92,7 @@ const projects = [
   {
     id: 5,
     title: "Tech Hub Solutions",
-    image: "../media/TechHubSolutions.png",
+    image: "../media/Tech Hub Solutions.png",
     video: "../media/Coming Soon.mp4",
     shortDescription:
       "A pixel-perfect React single-page site for an office equipment supplier—fully responsive with theme toggle, smooth navigation, and clean UX.",
