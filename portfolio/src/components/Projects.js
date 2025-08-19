@@ -91,6 +91,39 @@ const projects = [
   },
   {
     id: 5,
+    title: "Pexzzles",
+    image: "../media/Pexzzles.png",
+    video: "../media/Coming Soon.mp4",
+    shortDescription:
+      "A cognitive photo puzzle game for elders and brain-training enthusiasts. Search square photos from Unsplash, scramble them into tiles, and race the clock to restore the original.",
+    fullDescription:
+      "Pexzzles is a React-based cognitive training photo puzzle designed for simplicity and joy. Players enter their name (used in results), choose a grid size (2×2, 4×4, 6×6, 8×8), and search square-only images via the Unsplash API. The chosen photo is scrambled into tiles—solvable by tapping to swap or drag-and-drop—and a large, readable timer tracks progress. A Daily Challenge mode uses a seeded shuffle so everyone gets the same layout each day, while Custom Puzzle lets users pick any keyword. Features include a 3-hint system (4-second original-image peek with automatic countdown), success modal with confetti and rotating encouraging messages, non-destructive Save Game, Start New Game, and a persistent Scoreboard Drawer (localStorage) showing time, moves, hints, grid size, and attribution. The interface is elder-friendly: centered layout, big buttons, clear contrast, and strict square images to avoid awkward crops. Unsplash requirements are respected (hotlinking, download trigger, proper photographer and Unsplash attribution).",
+    tools: [
+      "React",
+      "Vite",
+      "Bootstrap",
+      "React Icons",
+      "react-confetti",
+      "HTML5 Drag and Drop",
+      "Unsplash API",
+      "LocalStorage",
+    ],
+    link: "https://pexzzles.netlify.app",
+  },
+  {
+    id: 6,
+    title: "The Lyrithium Engine",
+    image: "../media/The Lyrithium Engine.png",
+    video: "../media/The Lyrithium Engine.mp4",
+    shortDescription:
+      "An elegant AI-powered romantic message generator using the Shecodes AI API",
+    fullDescription:
+      "An elegant AI-powered romantic message generator that transforms user prompts into short, romantic messages with a single click. It uses natural language processing to craft personalized 8-line messages in real time. Features: Typewriter animation for the message output, dynamic user input, SheCodes AI API integration, stylized message formatting, form validation, and loading indicator.",
+    tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
+    link: "https://thelyrithiumengine.netlify.app",
+  },
+  {
+    id: 7,
     title: "Tech Hub Solutions",
     image: "../media/Tech Hub Solutions.png",
     video: "../media/Coming Soon.mp4",
@@ -115,49 +148,16 @@ const projects = [
     link: "https://github.com/gititbunny/tech-hub-solutions",
   },
   {
-    id: 6,
-    title: "The Lyrithium Engine",
-    image: "../media/The Lyrithium Engine.png",
-    video: "../media/The Lyrithium Engine.mp4",
-    shortDescription:
-      "An elegant AI-powered romantic message generator using the Shecodes AI API",
-    fullDescription:
-      "An elegant AI-powered romantic message generator that transforms user prompts into short, romantic messages with a single click. It uses natural language processing to craft personalized 8-line messages in real time. Features: Typewriter animation for the message output, dynamic user input, SheCodes AI API integration, stylized message formatting, form validation, and loading indicator.",
-    tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
-    link: "https://thelyrithiumengine.netlify.app",
-  },
-  {
-    id: 7,
-    title: "Pexzzles",
-    image: "../media/Pexzzles.png",
+    id: 8,
+    title: "Kruger National Park Travel Page",
+    image: "../media/Kruger National Park.png",
     video: "../media/Coming Soon.mp4",
     shortDescription:
-      "A cognitive photo puzzle game for elders and brain-training enthusiasts. Search square photos from Unsplash, scramble them into tiles, and race the clock to restore the original.",
+      "A responsive travel landing page showcasing the beauty, activities, and cultural heritage of South Africa’s Kruger National Park.",
     fullDescription:
-      "Pexzzles is a React-based cognitive training photo puzzle designed for simplicity and joy. Players enter their name (used in results), choose a grid size (2×2, 4×4, 6×6, 8×8), and search square-only images via the Unsplash API. The chosen photo is scrambled into tiles—solvable by tapping to swap or drag-and-drop—and a large, readable timer tracks progress. A Daily Challenge mode uses a seeded shuffle so everyone gets the same layout each day, while Custom Puzzle lets users pick any keyword. Features include a 3-hint system (4-second original-image peek with automatic countdown), success modal with confetti and rotating encouraging messages, non-destructive Save Game, Start New Game, and a persistent Scoreboard Drawer (localStorage) showing time, moves, hints, grid size, and attribution. The interface is elder-friendly: centered layout, big buttons, clear contrast, and strict square images to avoid awkward crops. Unsplash requirements are respected (hotlinking, download trigger, proper photographer and Unsplash attribution).",
-    tools: [
-      "React",
-      "Vite",
-      "Bootstrap",
-      "React Icons",
-      "react-confetti",
-      "HTML5 Drag and Drop",
-      "Unsplash API",
-      "LocalStorage",
-    ],
-    link: "https://pexzzles.netlify.app",
-  },
-  {
-    id: 8,
-    title: "Arcane Chronicles",
-    image: "../media/Arcane Chronicles.png",
-    video: "../media/Arcane Chronicles.mp4",
-    shortDescription:
-      "An immersive, character-based quiz game inspired by Arcane: League of Legends.",
-    fullDescription:
-      "An immersive, character-based quiz game inspired by Arcane: League of Legends. Players test their knowledge of the series by answering character-based questions, unlocking rich lore & interactive visuals along the way. Features: Character selection system, quiz logic with score tracking, progress bar, custom animations (shimmer, shake, glow), real-time feedback, and a localStorage-based scoreboard.",
-    tools: ["HTML", "CSS", "JavaScript", "LocalStorage"],
-    link: "https://arcanequizgame.netlify.app",
+      "This project is a responsive web page built to highlight Kruger National Park, one of South Africa’s most iconic safari destinations. It features a modern layout with sections for an introduction, detailed descriptions, activities with integrated Google Maps, and a photo gallery. The site also includes a footer with resource links and an 'About Me' section. Designed with accessibility and responsiveness in mind, it combines clean typography, grid layouts, and styled components to create an engaging user experience while strengthening front-end development skills.",
+    tools: ["HTML", "CSS", "Responsive Design", "Google Maps Embed"],
+    link: "https://krugernationalpark.netlify.app/",
   },
 ];
 
