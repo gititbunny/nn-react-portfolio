@@ -9,7 +9,7 @@ const projects = [
     image: "../media/Pathpholio.png",
     video: "../media/Coming Soon.mp4",
     shortDescription:
-      "A full-stack job application tracker with login, cloud sync, and a crisp, recruiter-friendly UI.",
+      "A full-stack job application tracker with login, cloud sync, and a crisp, user-friendly UI.",
     fullDescription:
       "Pathpholio is a React + Supabase job application tracker that lets users securely add, edit, filter, and manage applications across devices. It features email/password auth with Row Level Security (users only see their own data), a polished UI with a neon-green form card, zebra-striped data table, status chips, and inline editing. Each record supports title, company, status, job URL, interview date, and notes. The app is built with Vite, uses Supabase Postgres + Auth with SQL policies and triggers, and deploys to Netlify with environment-based configuration. Designed to feel like a production mini-SaaS while staying entirely on free tiers.",
     tools: [
