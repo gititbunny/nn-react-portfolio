@@ -187,7 +187,7 @@ export default function Experience() {
         </div>
 
         <a
-          href="../media/ROLW Resume CV Nina Nkhwashu.pdf"
+          href="../media/Nina Nkhwashu CV.pdf"
           className="download-btn"
           download
         >
