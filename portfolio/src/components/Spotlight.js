@@ -31,7 +31,7 @@ function Spotlight() {
               Explore My Work
             </a>
             <a
-              href="../media/ROLW Resume CV Nina Nkhwashu.pdf"
+              href="../media/Nina Nkhwashu CV.pdf"
               className="btn btn-outline-light download-button"
               download
             >
