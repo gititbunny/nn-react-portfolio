@@ -11,6 +11,7 @@ function Skills() {
     "CSS",
     "Responsive Design",
     "Bootstrap",
+    "SQL",
     "Git",
     "GitHub",
     "VS Code",
