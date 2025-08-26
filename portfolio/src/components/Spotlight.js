@@ -16,10 +16,10 @@ function Spotlight() {
             Welcome to My Universe!
           </h1>
           <p>
-            I’m Nina Nkhwashu, a Creative Technologist, Front-End Developer, and
-            Digital Designer on a mission to turn bold ideas into powerful
-            digital experiences. This portfolio is a glimpse into my world of
-            innovation, design, and tech.
+            I’m Nina Nkhwashu, a React Developer, Creative Technologist,
+            Front-End Developer, and Digital Designer on a mission to turn bold
+            ideas into powerful digital experiences. This portfolio is a glimpse
+            into my world of innovation, design, and tech.
             <br />
             <em>Strap in...the ride's just getting started!</em>
           </p>
