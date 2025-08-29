@@ -42,6 +42,8 @@ function Skills() {
     "Critical Thinking",
     "Growth-Focused Mindset",
     "E-commerce Management",
+    "Full App Lifecycle Ownership",
+    "Scenario Modeling",
   ];
 
   return (
