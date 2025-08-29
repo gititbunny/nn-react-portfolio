@@ -25,7 +25,6 @@ function Skills() {
     "Premiere Pro",
     "InDesign",
     "Canva",
-    "CapCut",
     "DaVinci Resolve",
   ];
 
