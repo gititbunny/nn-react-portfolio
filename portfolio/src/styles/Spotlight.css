@@ -33,6 +33,7 @@
 }
 
 .spotlight-text h1 {
+  text-shadow: #01c0ca96 0 0 10px;
   font-size: 44px;
   margin-bottom: 20px;
 }
