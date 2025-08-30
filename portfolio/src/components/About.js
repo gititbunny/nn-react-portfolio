@@ -16,8 +16,8 @@ function About() {
           <em>
             I’m a Junior Full-Stack Developer with a creative edge and a mindset
             for building technology that makes an impact. My path into tech has
-            been anything but traditional. Every step from mathematics and
-            computer science to digital design and codings has shaped the way I
+            been anything but traditional. Every step from Mathematics and
+            Computer Science to digital design and coding has shaped the way I
             think and create. I combine technical precision with creative
             vision. Whether I’m developing apps in React, Python, JavaScript,
             and APIs, or crafting intuitive user experiences, I thrive on
@@ -45,7 +45,8 @@ function About() {
                 digital design to styling and brand-building with Laust Closet,
                 and a Graphic Designer internship experience at RIKHOTSO IT
                 Solutions. These roles sharpened my creativity, client focus,
-                and design instincts, which I now apply directly to development.
+                and design instincts, which I now apply directly to my
+                development of digital solutions.
                 <br />
                 <br />
                 In 2024, I formalized my pivot into tech with verified diplomas
