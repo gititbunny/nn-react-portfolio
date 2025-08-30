@@ -14,16 +14,22 @@ function About() {
         <h2 className="text-white">Who Am I?</h2>
         <p className="about-text">
           <em>
-            Well, I’m a multidisciplinary Junior Full-Stack Web Developer and
-            Creative Technologist with a foundation in both software development
-            and digital design. My journey into tech has been anything but
-            traditional, but it’s been purposeful every step of the way.
+            I’m a Junior Full-Stack Developer with a creative edge and a mindset
+            for building technology that makes an impact. My path into tech has
+            been anything but traditional. Every step from mathematics and
+            computer science to digital design and codings has shaped the way I
+            think and create. I combine technical precision with creative
+            vision. Whether I’m developing apps in React, Python, JavaScript,
+            and APIs, or crafting intuitive user experiences, I thrive on
+            turning bold ideas into reality. My projects span AI storytelling,
+            climate simulation, web utilities, and interactive games, proof that
+            I don’t just follow one lane, I explore the variety of what tech can
+            do.
             <br />
-            <br />I began my academic journey in BSc Mathematical Sciences,
-            focusing on Computer Science and Statistics, before pivoting toward
-            more hands-on experience in digital creation. I transitioned into
-            digital creation, building technical and creative fluency through
-            internships, freelance work,
+            <br />
+            My background is grounded in both learning and doing. I began my
+            academic journey studying a BSc Mathematical Sciences degree with a
+            focus on Computer Science and Statistics at the University of
             {!showMore && (
               <>
                 ...{" "}
@@ -35,30 +41,27 @@ function About() {
             {showMore && (
               <>
                 {" "}
-                and self-driven learning. I’ve developed and deployed
-                responsive, user-focused web applications using HTML, CSS,
-                JavaScript, Python, React.js, APIs, and modern tools like Git,
-                Netlify, and VS Code, while leveraging my design background to
-                craft clean, intuitive interfaces.
+                Limpopo, then pivoted into hands-on creation, from freelance
+                digital design to styling and brand-building with Laust Closet,
+                and a Graphic Designer internship experience at RIKHOTSO IT
+                Solutions. These roles sharpened my creativity, client focus,
+                and design instincts, which I now apply directly to development.
                 <br />
                 <br />
-                In 2024, I formalized my technical pivot and I've now in 2025
-                earned verified diplomas in full-stack and front-end development
-                from Delac Foundation SheCodes. Since then, I’ve been and
-                continue building real-world projects that merge design, logic,
-                and storytelling, to create solutions that feel as good as they
-                function.
+                In 2024, I formalized my pivot into tech with verified diplomas
+                in Full-Stack and Front-End Development, and 13 certifications
+                in Web Development, React, Python, and AI from Delac Foundation
+                SheCodes. Since then, I’ve been focused on building real-world
+                projects that connect design, logic, and storytelling into
+                seamless digital experiences.
                 <br />
                 <br />
-                Whether I’m coding interfaces, solving logic puzzles, or
-                collaborating with a team, I care deeply about making things
-                that are impactful, accessible, and human-centered. I’m
-                currently seeking junior roles where I can grow, contribute
-                meaningfully, and help shape thoughtful digital experiences.
-                <br />
-                <br />
+                What drives me isn’t just code, it’s the challenge of creating
+                something meaningful, something that feels as good as it
+                functions. I’m now seeking opportunities as a Junior Developer
+                where I can grow, contribute, and help shape thoughtful digital
+                experiences with teams who are building the future.{" "}
                 <strong>I'm eager to see what comes next...</strong>
-                <br />
                 <br />
                 <span className="read-more" onClick={handleToggle}>
                   Show less
