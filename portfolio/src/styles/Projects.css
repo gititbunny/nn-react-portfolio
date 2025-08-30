@@ -8,6 +8,7 @@
 .projects-title {
   font-size: 36px;
   margin-bottom: 30px;
+  text-shadow: #019097 0 0 10px;
 }
 
 .projects-grid {
@@ -19,7 +20,7 @@
 
 .project-card {
   background: rgba(3, 20, 8, 0.9);
-  border: 1px solid rgba(206, 241, 123, 0.6);
+  border: 1.5px solid rgba(1, 144, 151, 0.6);
   border-radius: 12px;
   width: 250px;
   padding: 20px;
