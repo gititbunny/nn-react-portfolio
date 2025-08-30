@@ -1,4 +1,5 @@
 import React from "react";
+import StatCounter from "./StatCounter";
 import "../styles/Skills.css";
 
 function Skills() {
@@ -68,6 +69,12 @@ function Skills() {
               ))}
             </div>
           </div>
+        </div>
+
+        <div className="stats-row">
+          <StatCounter label="Projects Completed" end={32} />
+          <StatCounter label="GitHub Contributions" end={659} />
+          <StatCounter label="Tools & Technologies" end={34} />
         </div>
       </div>
     </section>
