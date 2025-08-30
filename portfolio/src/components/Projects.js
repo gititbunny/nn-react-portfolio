@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import StatCounter from "./StatCounter";
 import "../styles/Projects.css";
 
 const projects = [
@@ -212,12 +211,6 @@ function Projects() {
         >
           See more of my work
         </a>
-      </div>
-
-      <div className="stats-row">
-        <StatCounter label="Projects Completed" end={32} />
-        <StatCounter label="GitHub Contributions" end={659} />
-        <StatCounter label="Tools & Technologies" end={34} />
       </div>
 
       {selectedProject && (
