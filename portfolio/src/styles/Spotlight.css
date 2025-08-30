@@ -44,6 +44,10 @@
   line-height: 1.6;
 }
 
+.spotlight-text em {
+  color: #cef17b;
+}
+
 .explore-button {
   border: 1px solid #cef17b !important;
   font-size: 18px;
