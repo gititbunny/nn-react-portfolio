@@ -57,12 +57,14 @@
   font-weight: bold;
   border-radius: 80px !important;
   display: inline-block;
+  transition: all 0.3s ease;
 }
 
 .explore-button:hover {
   background-color: #019097 !important;
   color: white !important;
   border: 1px solid #019097 !important;
+  transform: scale(1.05);
 }
 
 @media (min-width: 768px) {
@@ -117,12 +119,14 @@
   font-weight: bold;
   border-radius: 80px !important;
   display: inline-block;
+  transition: all 0.3s ease;
 }
 
 .download-button:hover {
   background-color: #019097 !important;
   color: white !important;
   border: 1px solid #019097 !important;
+  transform: scale(1.05);
 }
 
 @media (max-width: 480px) {
