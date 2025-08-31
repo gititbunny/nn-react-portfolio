@@ -67,7 +67,7 @@
 
 .github-button {
   background-color: transparent;
-  border: 1px solid white;
+  border: 1px solid #cef17b;
   padding: 10px 20px;
   border-radius: 8px;
   color: white;
@@ -78,7 +78,7 @@
 }
 
 .github-button:hover {
-  background-color: #019097;
+  background-color: rgb(1, 144, 151, 0.2);
   color: white;
   border: 1px solid #019097;
   transform: scale(1.05);
