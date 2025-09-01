@@ -5,7 +5,8 @@
 }
 
 .skills-section h2 {
-  font-size: 32px;
+  font-size: 36px;
+  text-shadow: #019097 0 0 10px;
 }
 
 .skills-grid {
@@ -26,7 +27,8 @@
   font-size: 20px;
   text-align: center;
   margin-bottom: 20px;
-  color: rgba(255, 255, 255, 0.9);
+  color: white;
+  text-shadow: #019097 0 0 5px;
 }
 
 .tag-group {
@@ -49,8 +51,8 @@
 }
 
 .skill-tag:hover {
-  border-color: #ffd700;
-  color: #ffd700;
+  border-color: #cef17b;
+  color: #cef17b;
   transform: scale(1.05);
 }
 
@@ -92,7 +94,7 @@
 .stat h3 {
   font-size: 36px;
   margin: 0;
-  color: white;
+  color: #cef17b;
 }
 
 .stat p {
