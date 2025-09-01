@@ -62,9 +62,9 @@
   bottom: 25px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #8b5e3c;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  color: white;
+  background-color: #cef17b;
+  border: 1px solid #cef17b;
+  color: black;
   padding: 8px 24px;
   border-radius: 50px;
   text-decoration: none;
@@ -74,7 +74,9 @@
 }
 
 .download-btn:hover {
-  background: linear-gradient(to bottom, #1b922b, #4f680b);
+  background: #01c0ca;
+  border: 1px solid #01c0ca;
+  color: white;
 }
 
 .year-modal {
