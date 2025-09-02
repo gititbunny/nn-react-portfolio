@@ -95,13 +95,14 @@
 }
 
 .modal-card {
-  background: #000;
+  background-color: rgba(3, 20, 8, 0.9);
   padding: 40px;
   border-radius: 15px;
   max-width: 950px;
   width: 90%;
   position: relative;
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(206, 241, 123, 0.2);
+  animation: fadeIn 0.3s ease-in-out;
 }
 
 .close-btn {
