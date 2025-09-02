@@ -18,18 +18,18 @@
 }
 
 .navbar .nav-link:hover {
-  color: #ffd700 !important;
+  color: #48ff00 !important;
 }
 
 .navbar-brand:hover {
-  color: #ffd700 !important;
+  color: #48ff00 !important;
 }
 
 .navbar-toggler {
-  border-color: rgba(255, 215, 0, 0.1);
+  border-color: rgba(72, 55, 0, 0.1);
 }
 
 .navbar .nav-link.active {
-  color: #00ffff !important;
+  color: #01c0ca !important;
   font-weight: bold;
 }
