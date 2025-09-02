@@ -99,7 +99,7 @@
 }
 
 .modal-content {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(3, 20, 8, 0.05);
   box-shadow: 0 0 24px #cef17b;
   backdrop-filter: blur(10px);
   border-radius: 15px !important;
@@ -162,6 +162,10 @@
   text-shadow: #019097 0 0 10px;
   cursor: pointer;
   user-select: none;
+}
+
+.nav-arrow:hover {
+  color: #01c0ca;
 }
 
 .nav-arrow.left {
