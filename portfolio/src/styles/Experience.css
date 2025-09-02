@@ -55,7 +55,7 @@
 }
 
 .year-bubble.future {
-  background: #cef17b;
+  background: linear-gradient(135deg, #48ff00, #cef17b);
   color: #031408;
 }
 
@@ -101,7 +101,7 @@
   max-width: 950px;
   width: 90%;
   position: relative;
-  border: 2px solid rgba(206, 241, 123, 0.2);
+  box-shadow: 0 0 24px #cef17b;
   animation: fadeIn 0.3s ease-in-out;
 }
 
@@ -111,7 +111,8 @@
   right: 20px;
   background: none;
   border: none;
-  color: #50d6fe;
+  color: #01c0ca;
+  text-shadow: #cef17b 0 0 10px;
   font-size: 30px;
   cursor: pointer;
 }
@@ -141,7 +142,7 @@
 }
 
 .modal-info h4 {
-  color: #8b5e3c;
+  color: #48ff00;
   margin-bottom: 15px;
 }
 
@@ -158,8 +159,10 @@
 }
 
 .modal-nav button {
-  background: rgba(255, 255, 255, 0.1);
-  color: #50d6fe;
+  background: none;
+  font-size: 30px;
+  text-shadow: #019097 0 0 10px;
+  color: #cef17b;
   border: none;
   padding: 10px 20px;
   border-radius: 50px;
@@ -167,8 +170,7 @@
 }
 
 .modal-nav button:hover {
-  background: #65fe08;
-  color: #000;
+  color: #01c0ca;
 }
 
 @media (max-width: 768px) {
