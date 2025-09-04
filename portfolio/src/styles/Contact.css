@@ -81,10 +81,10 @@
 }
 
 .contact-form button {
-  background: #48230c;
+  background: transparent;
   color: #fff;
   padding: 12px;
-  border: none;
+  border: 1px solid #cef17b;
   border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
@@ -92,7 +92,10 @@
 }
 
 .contact-form button:hover {
-  background: #007acc;
+  background-color: rgb(1, 144, 151, 0.2) !important;
+  color: white !important;
+  border: 1px solid #019097 !important;
+  transform: scale(1.05);
 }
 
 .success-msg {
