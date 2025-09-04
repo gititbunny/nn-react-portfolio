@@ -92,9 +92,9 @@
 }
 
 .contact-form button:hover {
-  background-color: rgb(1, 144, 151, 0.2) !important;
-  color: white !important;
-  border: 1px solid #019097 !important;
+  background-color: rgb(1, 144, 151, 0.2);
+  color: white;
+  border: 1px solid #019097;
   transform: scale(1.05);
 }
 
