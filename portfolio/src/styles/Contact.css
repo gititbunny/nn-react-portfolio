@@ -33,12 +33,12 @@
 }
 
 .contact-left a {
-  color: #01c0ca;
+  color: #cef17b;
   text-decoration: none;
 }
 
 .contact-left a:hover {
-  color: #cef17b;
+  color: #01c0ca;
 }
 
 .social-icons {
@@ -55,7 +55,7 @@
 
 .social-icons a:hover {
   transform: scale(1.2);
-  color: #cef17b;
+  color: #c1f842;
 }
 
 .contact-right p {
@@ -75,7 +75,7 @@
   padding: 12px;
   border-radius: 5px;
   border: none;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(206, 241, 123, 0.1);
   color: #fff;
   resize: vertical;
 }
