@@ -6,9 +6,10 @@
 }
 
 #contact h2 {
-  font-size: 32px;
+  font-size: 36px;
   margin-bottom: 30px;
   text-align: center;
+  text-shadow: #019097 0 0 10px;
 }
 
 .contact-container {
@@ -32,8 +33,12 @@
 }
 
 .contact-left a {
-  color: #ff8e48;
+  color: #01c0ca;
   text-decoration: none;
+}
+
+.contact-left a:hover {
+  color: #cef17b;
 }
 
 .social-icons {
@@ -50,7 +55,7 @@
 
 .social-icons a:hover {
   transform: scale(1.2);
-  color: #00aaff;
+  color: #cef17b;
 }
 
 .contact-right p {
