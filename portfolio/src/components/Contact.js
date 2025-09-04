@@ -32,7 +32,7 @@ export default function Contact() {
         {/* LEFT SIDE */}
         <div className="contact-left">
           <p>
-            <strong>Contact Me:</strong> <br />
+            Contact Me: <br />
             <a href="mailto:ninankhwashu@gmail.com">ninankhwashu@gmail.com</a>
           </p>
           <div className="social-icons">
