@@ -6,7 +6,7 @@ const projects = [
     id: 1,
     title: "Pathpholio",
     image: "../media/Pathpholio.png",
-    video: "../media/Coming Soon.mp4",
+    video: "../media/Pathpholio.mp4",
     shortDescription:
       "A full-stack job application tracker with login, cloud sync, and a crisp, user-friendly UI.",
     fullDescription:
@@ -31,7 +31,7 @@ const projects = [
     id: 2,
     title: "Aurwrite",
     image: "../media/Aurwrite.png",
-    video: "../media/Coming Soon.mp4",
+    video: "../media/Aurwrite.mp4",
     shortDescription:
       "An AI-powered 'Audio-to-Story' creator tool that transforms voice notes into narrated stories in multiple styles.",
     fullDescription:
@@ -51,7 +51,7 @@ const projects = [
     id: 3,
     title: "Weathif",
     image: "../media/Weathif.png",
-    video: "../media/Coming Soon.mp4",
+    video: "../media/Weathif.mp4",
     shortDescription:
       "A climate scenario simulator that visualizes how temperature and rainfall changes could impact local environments.",
     fullDescription:
@@ -71,7 +71,7 @@ const projects = [
     id: 4,
     title: "Trovule",
     image: "../media/Trovule.png",
-    video: "../media/Coming Soon.mp4",
+    video: "../media/Trovule.mp4",
     shortDescription:
       "A playful road trip buddy that checks weather for your route and generates a simple and quick day by day itinerary with ZAR estimates.",
     fullDescription:
@@ -92,7 +92,7 @@ const projects = [
     id: 5,
     title: "Pexzzles",
     image: "../media/Pexzzles.png",
-    video: "../media/Coming Soon.mp4",
+    video: "../media/Pexzzles.mp4",
     shortDescription:
       "A cognitive photo puzzle game for elders and brain-training enthusiasts. Search square photos from Unsplash, scramble them into tiles, and race the clock to restore the original.",
     fullDescription:
@@ -125,7 +125,7 @@ const projects = [
     id: 7,
     title: "Tech Hub Solutions",
     image: "../media/Tech Hub Solutions.png",
-    video: "../media/Coming Soon.mp4",
+    video: "../media/Tech Hub Solutions.mp4",
     shortDescription:
       "A pixel-perfect React single-page site for an office equipment supplier—fully responsive with theme toggle, smooth navigation, and clean UX.",
     fullDescription:
@@ -150,7 +150,7 @@ const projects = [
     id: 8,
     title: "Kruger National Park Travel Page",
     image: "../media/Kruger National Park.png",
-    video: "../media/Coming Soon.mp4",
+    video: "../media/Kruger National Park.mp4",
     shortDescription:
       "A responsive travel landing page showcasing the beauty, activities, and cultural heritage of South Africa’s Kruger National Park.",
     fullDescription:
