@@ -154,7 +154,7 @@ const projects = [
     shortDescription:
       "A responsive travel landing page showcasing the beauty, activities, and cultural heritage of South Africa’s Kruger National Park.",
     fullDescription:
-      "This project is a responsive web page built to highlight Kruger National Park, one of South Africa’s most iconic safari destinations. It features a modern layout with sections for an introduction, detailed descriptions, activities with integrated Google Maps, and a photo gallery. The site also includes a footer with resource links and an 'About Me' section. Designed with accessibility and responsiveness in mind, it combines clean typography, grid layouts, and styled components to create an engaging user experience while strengthening front-end development skills.",
+      "Responsive showcase of Kruger National Park, one of South Africa’s premier safari destinations. Modern sections cover intro, activities with Google Maps, detailed info, and a photo gallery, plus an About Me and resource footer. Built with accessibility and mobile-first responsiveness, clean typography, and grid layouts to deliver an engaging, polished UX.",
     tools: ["HTML", "CSS", "Responsive Design", "Google Maps Embed"],
     link: "https://krugernationalpark.netlify.app/",
   },
