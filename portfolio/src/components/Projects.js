@@ -96,7 +96,7 @@ const projects = [
     shortDescription:
       "A cognitive photo puzzle game for elders and brain-training enthusiasts. Search square photos from Unsplash, scramble them into tiles, and race the clock to restore the original.",
     fullDescription:
-      "Pexzzles is a React-based cognitive training photo puzzle designed for simplicity and joy. Players enter their name (used in results), choose a grid size (2×2, 4×4, 6×6, 8×8), and search square-only images via the Unsplash API. The chosen photo is scrambled into tiles—solvable by tapping to swap or drag-and-drop—and a large, readable timer tracks progress. A Daily Challenge mode uses a seeded shuffle so everyone gets the same layout each day, while Custom Puzzle lets users pick any keyword. Features include a 3-hint system (4-second original-image peek with automatic countdown), success modal with confetti and rotating encouraging messages, non-destructive Save Game, Start New Game, and a persistent Scoreboard Drawer (localStorage) showing time, moves, hints, grid size, and attribution. The interface is elder-friendly: centered layout, big buttons, clear contrast, and strict square images to avoid awkward crops. Unsplash requirements are respected (hotlinking, download trigger, proper photographer and Unsplash attribution).",
+      "Pexzzles is a React photo puzzle that trains cognition with joyful simplicity. Enter your name, pick a grid (2×2–8×8), fetch square images via Unsplash, then solve by swapping or dragging tiles against a clear timer. Daily Challenge (seeded), Custom Puzzle, 3-hint 4-second peek, save/resume, and a persistent scoreboard. Elder-friendly UI.",
     tools: [
       "React",
       "Vite",
