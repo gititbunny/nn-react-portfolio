@@ -129,7 +129,7 @@ const projects = [
     shortDescription:
       "A pixel-perfect React single-page site for an office equipment supplier—fully responsive with theme toggle, smooth navigation, and clean UX.",
     fullDescription:
-      "Tech Hub Solutions is a landing site for a Limpopo-based office equipment supplier providing sales, maintenance, and supplies to businesses across Tzaneen and surrounding areas. Features include a sticky header with smooth in-page scrolling (80px offset), a mobile drawer menu with body scroll lock, persistent light/dark theme toggle (localStorage), product category filters with an 'Add to Cart' modal, a testimonials carousel via react-slick, animated KPI counters using IntersectionObserver, a contact form with success modal, a back-to-top control, and small-screen polish for the brand row and hero image. Bootstrap is used for utilities while the custom CSS retains the visual identity.",
+      "Tech Hub Solutions is a landing site for a Limpopo office-equipment supplier serving Tzaneen. Features: sticky header with smooth-offset scrolling, mobile drawer with scroll lock, light/dark theme, category filters with Add-to-Cart modal, react-slick testimonials, KPI counters, contact form with success modal, back-to-top, and mobile polish. Uses Bootstrap utilities plus custom CSS.",
     tools: [
       "React",
       "Vite",
