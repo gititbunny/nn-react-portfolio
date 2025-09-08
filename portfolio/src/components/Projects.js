@@ -55,7 +55,7 @@ const projects = [
     shortDescription:
       "A climate scenario simulator that visualizes how temperature and rainfall changes could impact local environments.",
     fullDescription:
-      "Weathif is a Streamlit-powered climate scenario simulator and local weather storyteller. It allows users to enter any location, adjust hypothetical climate change factors like temperature and rainfall, and visualize the projected environmental impact. Features include live geolocation, weather overlays (rain, clouds, temperature, satellite), dynamic charts, and real-time scenario feedback with clear environmental consequences.",
+      "Weathif is a Streamlit climate-scenario simulator and local weather storyteller. Enter any location, tweak temperature and rainfall assumptions, and instantly visualize projected impacts. Features: live geolocation, weather overlays (rain, clouds, temperature, satellite), dynamic charts, and real-time scenario feedback highlighting clear environmental consequences.",
     tools: [
       "Python",
       "Streamlit",
