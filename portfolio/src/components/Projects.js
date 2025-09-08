@@ -35,7 +35,7 @@ const projects = [
     shortDescription:
       "An AI-powered 'Audio-to-Story' creator tool that transforms voice notes into narrated stories in multiple styles.",
     fullDescription:
-      "Aurwrite is a fantasy-themed, dark-mode storytelling app built with Streamlit. Users upload a short audio file (like a voice note), which is transcribed with Whisper, rewritten in one of four styles: Fairy Tale, News Article, Stand-Up Comedy, or Horror, using a local LLM, and then narrated back using free TTS libraries (pyttsx3 or edge-tts). Features include a handwritten font style, fantasy-inspired dark UI, sidebar navigation, and live playback",
+      "Aurwrite is a Streamlit, dark-mode storytelling app. Upload a voice note; Whisper transcribes it, a local LLM rewrites it in Fairy Tale, News, Stand-Up, or Horror, then free TTS (pyttsx3/edge-tts) narrates it back. Features: fantasy-styled UI, handwritten font, sidebar navigation, and live playback.",
     tools: [
       "Python",
       "Streamlit",
