@@ -99,8 +99,9 @@ const experienceData = {
   FUTURE: {
     title: "What’s Next?",
     description: [
-      "Currently seeking junior roles in front-end, full-stack, or software development",
+      "Currently seeking roles in front-end, full-stack, or software development",
       "Passionate about solving real-world problems with user-centered solutions",
+      "Enrol for a BSc in Computing",
       "Open to remote or international opportunities with growth potential",
     ],
     image: "../media/future.png",
