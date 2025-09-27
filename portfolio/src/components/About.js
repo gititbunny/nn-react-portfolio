@@ -14,17 +14,16 @@ function About() {
         <h2 className="text-white">Who Am I?</h2>
         <p className="about-text">
           <em>
-            I’m a Junior Full-Stack Developer with a creative edge and a mindset
-            for building technology that makes an impact. My path into tech has
-            been anything but traditional. Every step from Mathematics and
-            Computer Science to digital design and coding has shaped the way I
-            think and create. I combine technical precision with creative
-            vision. Whether I’m developing apps in React, Python, JavaScript,
-            and APIs, or crafting intuitive user experiences, I thrive on
-            turning bold ideas into reality. My projects span AI storytelling,
-            climate simulation, web utilities, and interactive games, proof that
-            I don’t just follow one lane, I explore the variety of what tech can
-            do.
+            I’m a Full-Stack Developer with a creative edge and a mindset for
+            building technology that makes an impact. My path into tech has been
+            anything but traditional. Every step from Mathematics and Computer
+            Science to digital design and coding has shaped the way I think and
+            create. I combine technical precision with creative vision. Whether
+            I’m developing apps in React, Python, JavaScript, and APIs, or
+            crafting intuitive user experiences, I thrive on turning bold ideas
+            into reality. My projects span AI storytelling, climate simulation,
+            web utilities, and interactive games, proof that I don’t just follow
+            one lane, I explore the variety of what tech can do.
             <br />
             <br />
             My background is grounded in both learning and doing. I began my
@@ -59,8 +58,8 @@ function About() {
                 <br />
                 What drives me isn’t just code, it’s the challenge of creating
                 something meaningful, something that feels as good as it
-                functions. I’m now seeking opportunities as a Junior Developer
-                where I can grow, contribute, and help shape thoughtful digital
+                functions. I’m now seeking opportunities as a Developer where I
+                can grow, contribute, and help shape thoughtful digital
                 experiences with teams who are building the future.{" "}
                 <strong>I'm eager to see what comes next...</strong>
                 <br />
