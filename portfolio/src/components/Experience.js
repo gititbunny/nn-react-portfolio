@@ -101,7 +101,7 @@ const experienceData = {
     description: [
       "Currently seeking roles in front-end, full-stack, or software development",
       "Passionate about solving real-world problems with user-centered solutions",
-      "Enrol for a BSc in Computing",
+      "Enrol for a BSc in Computing Bachelor's Degree In 2026",
       "Open to remote or international opportunities with growth potential",
     ],
     image: "../media/future.png",
