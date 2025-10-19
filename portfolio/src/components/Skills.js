@@ -21,6 +21,7 @@ function Skills() {
     "Streamlit",
     "AI Integration",
     "Figma",
+    "Inkscape",
     "Adobe Creative Suite",
   ];
 
