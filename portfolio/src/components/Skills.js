@@ -74,7 +74,7 @@ function Skills() {
 
         <div className="stats-row">
           <StatCounter label="Projects Completed" end={34} />
-          <StatCounter label="GitHub Contributions" end={840} />
+          <StatCounter label="GitHub Contributions" end={923} />
           <StatCounter label="Tools & Technologies" end={34} />
         </div>
       </div>
