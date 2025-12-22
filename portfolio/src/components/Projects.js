@@ -144,7 +144,7 @@ const projects = [
       "IntersectionObserver",
       "Netlify",
     ],
-    link: "https://github.com/gititbunny/tech-hub-solutions",
+    link: "https://techhubsolutions.netlify.app/",
   },
   {
     id: 8,
