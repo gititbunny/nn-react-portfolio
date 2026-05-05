@@ -44,7 +44,7 @@ export default function Contact() {
               <FaLinkedin />
             </a>
             <a
-              href="https://github.com/ninankhwashu"
+              href="https://github.com/gititbunny"
               target="_blank"
               rel="noreferrer"
             >
