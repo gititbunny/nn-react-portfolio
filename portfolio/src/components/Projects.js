@@ -204,7 +204,7 @@ function Projects() {
 
       <div className="projects-footer">
         <a
-          href="https://github.com/ninankhwashu"
+          href="https://github.com/gititbunny"
           className="github-button"
           target="_blank"
           rel="noopener noreferrer"
