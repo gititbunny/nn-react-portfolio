@@ -36,7 +36,7 @@ function Spotlight() {
               View Projects
             </a>
             <a
-              href="../media/Nina Nkhwashu CV.pdf"
+              href="../media/Nina Nkhwashu Resume.pdf"
               class="btn btn-outline-light download-button"
               download
               aria-label="Download CV as PDF"
