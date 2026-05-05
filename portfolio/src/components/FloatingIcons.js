@@ -7,7 +7,7 @@ export default function FloatingIcons() {
     <div className="floating-icons">
       <div className="icon-wrapper">
         <a
-          href="https://github.com/ninankhwashu"
+          href="https://github.com/gititbunny"
           target="_blank"
           rel="noreferrer"
           aria-label="GitHub"
